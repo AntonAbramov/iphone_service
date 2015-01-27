@@ -66,3 +66,30 @@ textarea {
 .bg-gray {
   background: $white--gray;
 }
+
+// devices styles
+.devices {
+	text-align: center;
+}
+.devices__item {
+	display: inline-block;
+}
+.devices__link {
+	display: block;
+	padding:10px 30px;
+}
+.devices__img {
+	display: block;
+	padding:0 10px;
+	margin:0 0 15px;
+}
+.devices__img--preview {
+	display: block;
+	max-height: 100px;
+	max-width: 100;
+	margin:0 auto;
+}
+.devices__name {
+	text-align: center;
+
+}

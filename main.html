@@ -1,208 +1,322 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="iApp">
 <head>
-    <title>Framework</title>
-    <meta charset="UTF-8"/>
-    <!--<meta name="viewport" content="width=device-width; initial-scale=1.0">-->
-    <meta name="author" content="Anton Abramov"/>
-    <meta name="keywords" content=""/>
-    <meta name="description" content=""/>
-    <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
-    <link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css">
-    <link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css">
-    <link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css">
-    <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css">
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <title>Framework</title>
+  <meta charset="UTF-8"/>
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1.0">-->
+  <meta name="author" content="Anton Abramov"/>
+  <meta name="keywords" content=""/>
+  <meta name="description" content=""/>
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+  <link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css">
+  <link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css">
+  <link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css">
+  <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css">
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <script src="js/vnd/angular.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
-<body ng-app="iphone-service">
+<body>
+<ul>
+  <li ng-repeat="phone in phones">
+    <span>{{phone.name}}</span>
+
+    <p>{{phone.snippet}}</p>
+  </li>
+</ul>
 <header class="header">
-    <div class="container">
-        <h1 class="site-logo col-md-3 col-xs-12 col-sm-4">
-            <a href="/"><img src="" alt=""/></a>
-            <span class="site-logo__name"></span>
-        </h1>
-        <nav class="navigation col-lg-4 col-md-5 col-sm-8 col-xs-12">
-            <a href="/"><span>iPhone</span></a>
-            <a href="/remont-ipad/"><span>iPad</span></a>
-            <a href="/remont-macbook/"><span>MacBook</span></a>
-            <a href="/remont-ipod/"><span>iPod</span></a>
-        </nav>
-        <nav class="subnav col-lg-3 col-md-4 col-xs-12">
-            <a href="/category/news/" class="subnav__link">
-                <i class="fa fa-fw fa-file-text"></i>
-                <span class="aus">Новости</span>
-            </a>
-            <a href="/about/" class="subnav__link">
-                <i class="fa fa-fw fa-building-o"></i>
-                <span class="aus">Компания</span>
-            </a>
-            <a href="/responses/" class=subnav__link">
-                <i class="fa fa-fw fa-comments"></i>
-                <span class="aus">Отзывы</span>
-            </a>
-            <a href="/contacts/" class="subnav__link">
-                <i class="fa fa-fw fa-map-marker"></i>
-                <span class="aus">Контакты</span>
-            </a>
-        </nav>
-        <div class="director-button col-md-2 col-xs-12 hidden-xs hidden-sm hidden-md">
-            <a href="#" class="btn">Написать директору</a>
-        </div>
+  <div class="container">
+    <h1 class="site-logo col-md-3 col-xs-12 col-sm-4">
+      <a href="/"><img src="" alt=""/></a>
+      <span class="site-logo__name"></span>
+    </h1>
+    <nav class="navigation col-lg-4 col-md-5 col-sm-8 col-xs-12" ng-controller="topMenuController">
+      <a ng-repeat="item in menuItems" href="{{item.href}}"><span title="{{item.title}}}">{{item.text}}</span></a>
+    </nav>
+    <nav class="subnav col-lg-3 col-md-4 col-xs-12">
+      <a href="/category/news/" class="subnav__link">
+        <i class="fa fa-fw fa-file-text"></i>
+        <span class="aus">Новости</span>
+      </a>
+      <a href="/about/" class="subnav__link">
+        <i class="fa fa-fw fa-building-o"></i>
+        <span class="aus">Компания</span>
+      </a>
+      <a href="/responses/" class=subnav__link">
+        <i class="fa fa-fw fa-comments"></i>
+        <span class="aus">Отзывы</span>
+      </a>
+      <a href="/contacts/" class="subnav__link">
+        <i class="fa fa-fw fa-map-marker"></i>
+        <span class="aus">Контакты</span>
+      </a>
+    </nav>
+    <div class="director-button col-md-2 col-xs-12 hidden-xs hidden-sm hidden-md">
+      <a href="#" class="btn">Написать директору</a>
     </div>
+  </div>
 </header>
 <section class="header-section bg-gray">
-    <div class="container">
-        <div class="header-section__contacts">
-            ул. Богдана Хмельницкого 32, оф.5
-        </div>
-        <div class="header-section__schedule">
-            <strong>
-                Офис работает <br/>
-                без выходных <br/>
-                с 10:00 до 20:00
-            </strong>
-        </div>
-        <div class="header-section__courier">
-            <a href=""></a>
-        </div>
-        <div class="header-section__warranty">
-            <a href="/about/warranty">
-                Три года гарантии <br/>
-                на все ремонты
-            </a>
-        </div>
+  <div class="container">
+    <div class="header-section__contacts">
+      ул. Богдана Хмельницкого 32, оф.5
     </div>
+    <div class="header-section__schedule">
+      <strong>
+        Офис работает <br/>
+        без выходных <br/>
+        с 10:00 до 20:00
+      </strong>
+    </div>
+    <div class="header-section__courier">
+      <a href="">
+        <i class="icon-running aa"></i>
+        Вызвать курьера
+      </a>
+    </div>
+    <div class="header-section__warranty">
+      <a href="/about/warranty">
+        <i class="icon-warranty aa"></i>
+        Три года гарантии <br/>
+        на все ремонты
+      </a>
+    </div>
+  </div>
 </section>
-<section class="device-section">
-    <h1 class="device-title"></h1>
+<section ng-controller="deviceController" class="device-section">
+  <h1 class="device-title">
+    <div></div>
+  </h1>
 
-    <p class="device-subtitle"></p>
+  <p class="device-subtitle"></p>
 
-    <div class="devices">
-        <div class="devices__item">
-            <a href="" class="devices__link">
-                <span class="devices__img"></span>
-                <span class="devices__name"></span>
-            </a>
-        </div>
+  <div class="devices">
+    <div ng-repeat="item in menuIphone" class="devices__item">
+      <a href="{{item.href}}" title="{{item.title}}" class="devices__link">
+        <span class="devices__img"><img class="devices__img--preview" src="{{item.imgSrc}}" alt="{{item.imgAlt}}"/></span>
+        <span class="devices__name">{{item.text}}</span>
+      </a>
     </div>
+  </div>
 </section>
 <section class="problems-section bg-gray">
 
-    <ul class="row">
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/razbilos-steklo-iphone/">
-                <i class="icon-hammer problems-icon"></i>
-                <span class="problems-text aus">
-                    Разбилось стекло
-                </span>
-            </a>
-        </li>
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/iphone-ne-vklyuchaetsya/">
-                <i class="icon-no-mobile problems-icon"></i>
-                <span class="problems-text aus">
-                    Не включается
-                </span>
-            </a>
-        </li>
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/wifi-ne-rabotaet-ili-ploho-lovit-na-iphone/">
-                <i class="icon-wifi problems-icon"></i>
-                <span class="problems-text aus">
-                    Не работает Wi-Fi
-                </span>
-            </a>
-        </li>
+  <ul class="row">
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/razbilos-steklo-iphone/">
+        <i class="icon-hammer aa"></i>
+                  <span class="problems-text aus">
+                      Разбилось стекло
+                  </span>
+      </a>
+    </li>
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/iphone-ne-vklyuchaetsya/">
+        <i class="icon-no-mobile aa"></i>
+          <span class="problems-text aus">
+              Не включается
+          </span>
+      </a>
+    </li>
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/wifi-ne-rabotaet-ili-ploho-lovit-na-iphone/">
+        <i class="icon-wifi aa"></i>
+                  <span class="problems-text aus">
+                      Не работает Wi-Fi
+                  </span>
+      </a>
+    </li>
 
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/ne-rabotaet-zvuk-na-iphone/">
-                <i class="icon-mute problems-icon"></i>
-                <span class="problems-text aus">
-                    Не работает звук
-                </span>
-            </a>
-        </li>
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/ne-rabotaet-zvuk-na-iphone/">
+        <i class="icon-mute aa"></i>
+                  <span class="problems-text aus">
+                      Не работает звук
+                  </span>
+      </a>
+    </li>
 
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/ne-rabotaet-displey-iphone/">
-                <i class="icon-tv problems-icon"></i>
-                <span class="problems-text aus">
-                    Не работает дисплей
-                </span>
-            </a>
-        </li>
-
-
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/iphone-ne-zaryazhaetsya/">
-                <i class="icon-charge problems-icon"></i>
-                <span class="problems-text aus">
-                    Не заряжается
-                </span>
-            </a>
-        </li>
-
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="http://service-iphone.ru/problems/voda/">
-                <i class="icon-water problems-icon"></i>
-                <span class="problems-text aus">
-                    Попала вода
-                </span>
-            </a>
-        </li>
-
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/ne-rabotaet-vibrozvonok/">
-                <i class="icon-bell problems-icon"></i>
-                <span class="problems-text aus">
-                    Не работает вибрация
-                </span>
-            </a>
-        </li>
-
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/ne-rabotaet-tachskrin-na-iphone/">
-                <i class="icon-finger problems-icon"></i>
-                <span class="problems-text aus">
-                    Не работает тачскрин
-                </span>
-            </a>
-        </li>
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/ne-rabotaet-displey-iphone/">
+        <i class="icon-tv aa"></i>
+                  <span class="problems-text aus">
+                      Не работает дисплей
+                  </span>
+      </a>
+    </li>
 
 
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/iphone-byistro-razryazhaetsya/">
-                <i class="icon-low-battery problems-icon"></i>
-                <span class="problems-text aus">
-                    Быстро разряжается
-                </span>
-            </a>
-        </li>
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/iphone-ne-zaryazhaetsya/">
+        <i class="icon-charge aa"></i>
+                  <span class="problems-text aus">
+                      Не заряжается
+                  </span>
+      </a>
+    </li>
 
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/ne-nazhimayutsya-knopki-na-iphone/">
-                <i class="icon-circle problems-icon"></i>
-                <span class="problems-text aus">
-                    Не работают кнопки
-                </span>
-            </a>
-        </li>
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="http://service-iphone.ru/problems/voda/">
+        <i class="icon-water aa"></i>
+                  <span class="problems-text aus">
+                      Попала вода
+                  </span>
+      </a>
+    </li>
 
-        <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
-            <a class="au" href="/problems/vas-ne-slyishit-sobesednik-ne-rabotaet-mikrofon-iphone/">
-                <i class="icon-microphone problems-icon"></i>
-                <span class="problems-text aus">
-                    Не работает микрофон
-                </span>
-            </a>
-        </li>
-    </ul>
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/ne-rabotaet-vibrozvonok/">
+        <i class="icon-bell aa"></i>
+                  <span class="problems-text aus">
+                      Не работает вибрация
+                  </span>
+      </a>
+    </li>
+
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/ne-rabotaet-tachskrin-na-iphone/">
+        <i class="icon-finger aa"></i>
+                  <span class="problems-text aus">
+                      Не работает тачскрин
+                  </span>
+      </a>
+    </li>
+
+
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/iphone-byistro-razryazhaetsya/">
+        <i class="icon-low-battery aa"></i>
+                  <span class="problems-text aus">
+                      Быстро разряжается
+                  </span>
+      </a>
+    </li>
+
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/ne-nazhimayutsya-knopki-na-iphone/">
+        <i class="icon-circle aa"></i>
+                  <span class="problems-text aus">
+                      Не работают кнопки
+                  </span>
+      </a>
+    </li>
+
+    <li class="col-md-4 col-lg-3 col-sm-6 problems-item">
+      <a class="au" href="/problems/vas-ne-slyishit-sobesednik-ne-rabotaet-mikrofon-iphone/">
+        <i class="icon-microphone aa"></i>
+                  <span class="problems-text aus">
+                      Не работает микрофон
+                  </span>
+      </a>
+    </li>
+  </ul>
 </section>
-<script src="js/vnd/angular.min.js"></script>
-<script src="js/app.js"></script>
+<section class="information-section">
+  <div class="container">
+    <h2>Ремонт техники Apple в сервис-центрах «Total Apple»</h2>
+
+    <p>Мастера сервисов Total Apple ремонтируют iPhone, iPad, iPod, MacBook и iMac. Ремонтируются все существующие
+      модели, но для аппаратов старше 10 лет могут отсутствовать запчасти.</p>
+
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Офисы</h3>
+
+        <p>
+          Под руководством Total Apple работают 3 офиса в Москве — на Цветном бульваре, на Китай-Городе и на Бауманской.
+          До
+          каждого из офисов идти не больше 2 минут от метро, у каждого есть таблички и вывески, вход несложно найти. Все
+          офисы работают без выходных, с 10 утра до 8 вечера.
+        </p>
+      </div>
+      <div class="col-sm-6">
+        <img src="" alt=""/>
+      </div>
+    </div>
+
+    <p>Во всех отделениях имеется необходимый запас запчастей. Возможную нехватку запчастей в одном из офисов заранее
+      восполняют штатные курьеры из запасов других отделений.</p>
+
+    <p>Во всех отделениях ежедневно работают по несколько мастеров, таким образом в сервисах не бывает очередей.</p>
+
+    <div class="row">
+      <div class="col-sm-4">
+        <h3 class="content-text-header">Приём аппарата<i class="icon-admistrator aa"></i></h3>
+
+        <p>Клиенты обслуживаются без записи. Секретари принимают аппараты в ремонт как только клиент приходит в офис.
+          Звонить заранее не обязательно.</p>
+      </div>
+
+      <div class="col-sm-4">
+        <h3 class="content-text-header">Курьеры<i class="icon-running aa"></i></h3>
+
+        <p>Есть возможность <a title="Вызов курьера" href="http://service-iphone.ru/delivery/">вызова курьера</a>,
+          который привезет устройство в офис. В большинстве случаев курьеры выезжают сразу после получения заказа.</p>
+
+        <p>Вызов курьера — бесплатная услуга.</p>
+      </div>
+
+      <div class="col-sm-4 ">
+        <h3 class="content-text-header">Диагностика<i class="icon-stethoscope aa"></i></h3>
+
+        <p>В сервисных центрах Total Apple диагностика выполняется бесплатно. Даже если клиент отказывается от ремонта,
+          диагностика не оплачивается.</p>
+      </div>
+    </div>
+    <div class="row content-row vam">
+      <div class="col-sm-6">
+
+        <div class="content-text"><h3 class="content-text-header">Выполняемые услуги<i class="icon-engineering aa"></i></h3>
+          <p>Инженеры сервисов Total Apple выполняют следующие виды услуг:</p>
+        </div>
+        <div class="row content-row">
+          <div class="col-sm-6">
+              <ul>
+                <li>Замена любых деталей в аппарате:<br>
+                  <span>дисплеев, корпусов, кнопок, динамиков, микрофонов.</span></li>
+              </ul>
+          </div>
+
+          <div class="col-sm-6">
+              <ul>
+                <li>Пайка и другие работы по плате:<br>
+                  <span>замена микросхем, реболлинг BGA-чипов, замена и восстановление разъемов.</span>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div class="row content-row">
+          <div class="col-sm-6">
+
+              <ul>
+                <li>Комплексный ремонт после попадания воды.</li>
+              </ul>
+          </div>
+
+          <div class="col-sm-6">
+
+              <ul>
+                <li>Работа с ПО:<br>
+                  <span>прошивка, восстановление системы, сброс пароля.</span></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+          <div class="">
+            <img width="600" height="337" src="http://service-iphone.ru/wp-content/uploads/2014/12/image001-600x337.jpg" class="" alt="image00">
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="adress-section"></section>
+<footer class="footer">
+
+</footer>
 </body>
 </html>

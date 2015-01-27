@@ -474,10 +474,28 @@ th {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "appleIcons";
+  src: url("../fonts/apple-icons.eot");
+  src: url("../fonts/apple-icons.eot?#iefix") format("embedded-opentype"), url("../fonts/apple-icons.woff") format("woff"), url("../fonts/apple-icons.ttf") format("truetype"), url("../fonts/apple-icons.svg#apple-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /* line 4, ../scss/fonts/_core.scss */
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+/* line 15, ../scss/fonts/_core.scss */
+.aa:before, .aa {
+  display: inline-block;
+  font: 14px/1 appleIcons;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -3354,6 +3372,631 @@ th {
   content: "";
 }
 
+/* line 600, ../scss/fonts/_icons.scss */
+.icon-bell:before {
+  content: "b";
+}
+
+/* line 603, ../scss/fonts/_icons.scss */
+.icon-charge:before {
+  content: "c";
+}
+
+/* line 606, ../scss/fonts/_icons.scss */
+.icon-circle:before {
+  content: "d";
+}
+
+/* line 609, ../scss/fonts/_icons.scss */
+.icon-delivery:before {
+  content: "e";
+}
+
+/* line 612, ../scss/fonts/_icons.scss */
+.icon-finger:before {
+  content: "f";
+}
+
+/* line 615, ../scss/fonts/_icons.scss */
+.icon-hammer:before {
+  content: "h";
+}
+
+/* line 618, ../scss/fonts/_icons.scss */
+.icon-ipad:before {
+  content: "i";
+}
+
+/* line 621, ../scss/fonts/_icons.scss */
+.icon-iphone:before {
+  content: "j";
+}
+
+/* line 624, ../scss/fonts/_icons.scss */
+.icon-jobs:before {
+  content: "k";
+}
+
+/* line 627, ../scss/fonts/_icons.scss */
+.icon-laptop:before {
+  content: "l";
+}
+
+/* line 630, ../scss/fonts/_icons.scss */
+.icon-lightning:before {
+  content: "m";
+}
+
+/* line 633, ../scss/fonts/_icons.scss */
+.icon-low-battery:before {
+  content: "n";
+}
+
+/* line 636, ../scss/fonts/_icons.scss */
+.icon-microphone:before {
+  content: "o";
+}
+
+/* line 639, ../scss/fonts/_icons.scss */
+.icon-monitor:before {
+  content: "p";
+}
+
+/* line 642, ../scss/fonts/_icons.scss */
+.icon-mute:before {
+  content: "q";
+}
+
+/* line 645, ../scss/fonts/_icons.scss */
+.icon-no-mobile:before {
+  content: "r";
+}
+
+/* line 648, ../scss/fonts/_icons.scss */
+.icon-plus-minus:before {
+  content: "s";
+}
+
+/* line 651, ../scss/fonts/_icons.scss */
+.icon-running:before {
+  content: "t";
+}
+
+/* line 654, ../scss/fonts/_icons.scss */
+.icon-shutdown:before {
+  content: "u";
+}
+
+/* line 657, ../scss/fonts/_icons.scss */
+.icon-sim-card:before {
+  content: "v";
+}
+
+/* line 660, ../scss/fonts/_icons.scss */
+.icon-tv:before {
+  content: "w";
+}
+
+/* line 663, ../scss/fonts/_icons.scss */
+.icon-water:before {
+  content: "x";
+}
+
+/* line 666, ../scss/fonts/_icons.scss */
+.icon-wifi:before {
+  content: "y";
+}
+
+/* line 669, ../scss/fonts/_icons.scss */
+.icon-apple:before {
+  content: "a";
+}
+
+/* line 672, ../scss/fonts/_icons.scss */
+.icon-stethoscope:before {
+  content: "z";
+}
+
+/* line 675, ../scss/fonts/_icons.scss */
+.icon-warranty:before {
+  content: "A";
+}
+
+/* line 678, ../scss/fonts/_icons.scss */
+.icon-full-battery:before {
+  content: "g";
+}
+
+/* line 681, ../scss/fonts/_icons.scss */
+.icon-about:before {
+  content: "B";
+}
+
+/* line 684, ../scss/fonts/_icons.scss */
+.icon-admistrator:before {
+  content: "C";
+}
+
+/* line 687, ../scss/fonts/_icons.scss */
+.icon-apple-fruit:before {
+  content: "D";
+}
+
+/* line 690, ../scss/fonts/_icons.scss */
+.icon-archive:before {
+  content: "E";
+}
+
+/* line 693, ../scss/fonts/_icons.scss */
+.icon-automatic:before {
+  content: "F";
+}
+
+/* line 696, ../scss/fonts/_icons.scss */
+.icon-ball-pen:before {
+  content: "G";
+}
+
+/* line 699, ../scss/fonts/_icons.scss */
+.icon-banknotes:before {
+  content: "H";
+}
+
+/* line 702, ../scss/fonts/_icons.scss */
+.icon-bill:before {
+  content: "I";
+}
+
+/* line 705, ../scss/fonts/_icons.scss */
+.icon-bluetooth:before {
+  content: "J";
+}
+
+/* line 708, ../scss/fonts/_icons.scss */
+.icon-box:before {
+  content: "K";
+}
+
+/* line 711, ../scss/fonts/_icons.scss */
+.icon-bullet-camera:before {
+  content: "L";
+}
+
+/* line 714, ../scss/fonts/_icons.scss */
+.icon-callback:before {
+  content: "M";
+}
+
+/* line 717, ../scss/fonts/_icons.scss */
+.icon-capacitor:before {
+  content: "N";
+}
+
+/* line 720, ../scss/fonts/_icons.scss */
+.icon-cardboard-box:before {
+  content: "O";
+}
+
+/* line 723, ../scss/fonts/_icons.scss */
+.icon-cash-receiving:before {
+  content: "P";
+}
+
+/* line 726, ../scss/fonts/_icons.scss */
+.icon-cash-register:before {
+  content: "Q";
+}
+
+/* line 729, ../scss/fonts/_icons.scss */
+.icon-cheap:before {
+  content: "R";
+}
+
+/* line 732, ../scss/fonts/_icons.scss */
+.icon-checkmark:before {
+  content: "S";
+}
+
+/* line 735, ../scss/fonts/_icons.scss */
+.icon-christmas-snowflake:before {
+  content: "T";
+}
+
+/* line 738, ../scss/fonts/_icons.scss */
+.icon-christmas-tree:before {
+  content: "U";
+}
+
+/* line 741, ../scss/fonts/_icons.scss */
+.icon-circuit:before {
+  content: "V";
+}
+
+/* line 744, ../scss/fonts/_icons.scss */
+.icon-clock:before {
+  content: "W";
+}
+
+/* line 747, ../scss/fonts/_icons.scss */
+.icon-coffee:before {
+  content: "X";
+}
+
+/* line 750, ../scss/fonts/_icons.scss */
+.icon-combo-chart:before {
+  content: "Y";
+}
+
+/* line 753, ../scss/fonts/_icons.scss */
+.icon-compas:before {
+  content: "Z";
+}
+
+/* line 756, ../scss/fonts/_icons.scss */
+.icon-conference:before {
+  content: "0";
+}
+
+/* line 759, ../scss/fonts/_icons.scss */
+.icon-cookies:before {
+  content: "1";
+}
+
+/* line 762, ../scss/fonts/_icons.scss */
+.icon-department:before {
+  content: "2";
+}
+
+/* line 765, ../scss/fonts/_icons.scss */
+.icon-directions:before {
+  content: "3";
+}
+
+/* line 768, ../scss/fonts/_icons.scss */
+.icon-display:before {
+  content: "4";
+}
+
+/* line 771, ../scss/fonts/_icons.scss */
+.icon-electricity:before {
+  content: "5";
+}
+
+/* line 774, ../scss/fonts/_icons.scss */
+.icon-electronics:before {
+  content: "6";
+}
+
+/* line 777, ../scss/fonts/_icons.scss */
+.icon-engineering:before {
+  content: "7";
+}
+
+/* line 780, ../scss/fonts/_icons.scss */
+.icon-exclamation:before {
+  content: "8";
+}
+
+/* line 783, ../scss/fonts/_icons.scss */
+.icon-expensive:before {
+  content: "9";
+}
+
+/* line 786, ../scss/fonts/_icons.scss */
+.icon-fragile:before {
+  content: "!";
+}
+
+/* line 789, ../scss/fonts/_icons.scss */
+.icon-future:before {
+  content: "\"";
+}
+
+/* line 792, ../scss/fonts/_icons.scss */
+.icon-geo-fence:before {
+  content: "#";
+}
+
+/* line 795, ../scss/fonts/_icons.scss */
+.icon-glasses:before {
+  content: "$";
+}
+
+/* line 798, ../scss/fonts/_icons.scss */
+.icon-gps-disconected:before {
+  content: "%";
+}
+
+/* line 801, ../scss/fonts/_icons.scss */
+.icon-hand:before {
+  content: "&";
+}
+
+/* line 804, ../scss/fonts/_icons.scss */
+.icon-hdd:before {
+  content: "'";
+}
+
+/* line 807, ../scss/fonts/_icons.scss */
+.icon-headphones:before {
+  content: "(";
+}
+
+/* line 810, ../scss/fonts/_icons.scss */
+.icon-integrated-circuit:before {
+  content: ")";
+}
+
+/* line 813, ../scss/fonts/_icons.scss */
+.icon-invoice:before {
+  content: "*";
+}
+
+/* line 816, ../scss/fonts/_icons.scss */
+.icon-keyboard:before {
+  content: "+";
+}
+
+/* line 819, ../scss/fonts/_icons.scss */
+.icon-laptop-1:before {
+  content: ",";
+}
+
+/* line 822, ../scss/fonts/_icons.scss */
+.icon-lcd:before {
+  content: "-";
+}
+
+/* line 825, ../scss/fonts/_icons.scss */
+.icon-led-diode:before {
+  content: ".";
+}
+
+/* line 828, ../scss/fonts/_icons.scss */
+.icon-length:before {
+  content: "/";
+}
+
+/* line 831, ../scss/fonts/_icons.scss */
+.icon-location:before {
+  content: ":";
+}
+
+/* line 834, ../scss/fonts/_icons.scss */
+.icon-mac-client:before {
+  content: ";";
+}
+
+/* line 837, ../scss/fonts/_icons.scss */
+.icon-manual:before {
+  content: "<";
+}
+
+/* line 840, ../scss/fonts/_icons.scss */
+.icon-map:before {
+  content: "=";
+}
+
+/* line 843, ../scss/fonts/_icons.scss */
+.icon-map-marker:before {
+  content: ">";
+}
+
+/* line 846, ../scss/fonts/_icons.scss */
+.icon-memory-module:before {
+  content: "?";
+}
+
+/* line 849, ../scss/fonts/_icons.scss */
+.icon-microscope:before {
+  content: "@";
+}
+
+/* line 852, ../scss/fonts/_icons.scss */
+.icon-mouse:before {
+  content: "[";
+}
+
+/* line 855, ../scss/fonts/_icons.scss */
+.icon-music-video:before {
+  content: "]";
+}
+
+/* line 858, ../scss/fonts/_icons.scss */
+.icon-no-credit-cards:before {
+  content: "^";
+}
+
+/* line 861, ../scss/fonts/_icons.scss */
+.icon-office-lamp:before {
+  content: "_";
+}
+
+/* line 864, ../scss/fonts/_icons.scss */
+.icon-paper-clip:before {
+  content: "`";
+}
+
+/* line 867, ../scss/fonts/_icons.scss */
+.icon-password:before {
+  content: "{";
+}
+
+/* line 870, ../scss/fonts/_icons.scss */
+.icon-past:before {
+  content: "|";
+}
+
+/* line 873, ../scss/fonts/_icons.scss */
+.icon-pincette:before {
+  content: "}";
+}
+
+/* line 876, ../scss/fonts/_icons.scss */
+.icon-plus-1-hour:before {
+  content: "~";
+}
+
+/* line 879, ../scss/fonts/_icons.scss */
+.icon-present:before {
+  content: "\\";
+}
+
+/* line 882, ../scss/fonts/_icons.scss */
+.icon-print:before {
+  content: "\e000";
+}
+
+/* line 885, ../scss/fonts/_icons.scss */
+.icon-process:before {
+  content: "\e001";
+}
+
+/* line 888, ../scss/fonts/_icons.scss */
+.icon-purchase-order:before {
+  content: "\e002";
+}
+
+/* line 891, ../scss/fonts/_icons.scss */
+.icon-question:before {
+  content: "\e003";
+}
+
+/* line 894, ../scss/fonts/_icons.scss */
+.icon-question-face:before {
+  content: "\e004";
+}
+
+/* line 897, ../scss/fonts/_icons.scss */
+.icon-rainy-weather:before {
+  content: "\e005";
+}
+
+/* line 900, ../scss/fonts/_icons.scss */
+.icon-receipt:before {
+  content: "\e006";
+}
+
+/* line 903, ../scss/fonts/_icons.scss */
+.icon-resistor:before {
+  content: "\e007";
+}
+
+/* line 906, ../scss/fonts/_icons.scss */
+.icon-santa:before {
+  content: "\e008";
+}
+
+/* line 909, ../scss/fonts/_icons.scss */
+.icon-scalpel:before {
+  content: "\e009";
+}
+
+/* line 912, ../scss/fonts/_icons.scss */
+.icon-screwdriver:before {
+  content: "\e00a";
+}
+
+/* line 915, ../scss/fonts/_icons.scss */
+.icon-security-checked:before {
+  content: "\e00b";
+}
+
+/* line 918, ../scss/fonts/_icons.scss */
+.icon-settings:before {
+  content: "\e00c";
+}
+
+/* line 921, ../scss/fonts/_icons.scss */
+.icon-settings-filled:before {
+  content: "\e00d";
+}
+
+/* line 924, ../scss/fonts/_icons.scss */
+.icon-shield:before {
+  content: "\e00e";
+}
+
+/* line 927, ../scss/fonts/_icons.scss */
+.icon-talk:before {
+  content: "\e00f";
+}
+
+/* line 930, ../scss/fonts/_icons.scss */
+.icon-thumbs-down:before {
+  content: "\e010";
+}
+
+/* line 933, ../scss/fonts/_icons.scss */
+.icon-thumbs-up:before {
+  content: "\e011";
+}
+
+/* line 936, ../scss/fonts/_icons.scss */
+.icon-today:before {
+  content: "\e012";
+}
+
+/* line 939, ../scss/fonts/_icons.scss */
+.icon-toilet-pan:before {
+  content: "\e013";
+}
+
+/* line 942, ../scss/fonts/_icons.scss */
+.icon-tones:before {
+  content: "\e014";
+}
+
+/* line 945, ../scss/fonts/_icons.scss */
+.icon-toolbox:before {
+  content: "\e015";
+}
+
+/* line 948, ../scss/fonts/_icons.scss */
+.icon-transistor:before {
+  content: "\e016";
+}
+
+/* line 951, ../scss/fonts/_icons.scss */
+.icon-vk:before {
+  content: "\e017";
+}
+
+/* line 954, ../scss/fonts/_icons.scss */
+.icon-wifi-logo:before {
+  content: "\e018";
+}
+
+/* line 957, ../scss/fonts/_icons.scss */
+.icon-workstation:before {
+  content: "\e019";
+}
+
+/* line 960, ../scss/fonts/_icons.scss */
+.icon-metro:before {
+  content: "\e01a";
+}
+
+/* line 963, ../scss/fonts/_icons.scss */
+.icon-sofa:before {
+  content: "\e01b";
+}
+
+/* line 966, ../scss/fonts/_icons.scss */
+.icon-voice-presentation:before {
+  content: "\e01c";
+}
+
+/* line 969, ../scss/fonts/_icons.scss */
+.icon-interior:before {
+  content: "\e01d";
+}
+
+/* line 972, ../scss/fonts/_icons.scss */
+.icon-clock-1:before {
+  content: "\e01e";
+}
+
 /* line 10, ../scss/_grid.scss */
 .container {
   margin-right: auto;
@@ -4571,4 +5214,40 @@ textarea {
 /* line 66, ../scss/_main.scss */
 .bg-gray {
   background: #f2f2f2;
+}
+
+/* line 71, ../scss/_main.scss */
+.devices {
+  text-align: center;
+}
+
+/* line 74, ../scss/_main.scss */
+.devices__item {
+  display: inline-block;
+}
+
+/* line 77, ../scss/_main.scss */
+.devices__link {
+  display: block;
+  padding: 10px 30px;
+}
+
+/* line 81, ../scss/_main.scss */
+.devices__img {
+  display: block;
+  padding: 0 10px;
+  margin: 0 0 15px;
+}
+
+/* line 86, ../scss/_main.scss */
+.devices__img--preview {
+  display: block;
+  max-height: 100px;
+  max-width: 100;
+  margin: 0 auto;
+}
+
+/* line 92, ../scss/_main.scss */
+.devices__name {
+  text-align: center;
 }
