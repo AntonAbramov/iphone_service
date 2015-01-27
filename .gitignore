@@ -4,3 +4,4 @@ node_modules
 *.log
 .sass-cache
 *.DS_Store
+*.git
