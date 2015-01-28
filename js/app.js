@@ -73,4 +73,81 @@
       }
     ]
   });
+
+iApp.controller('problemsController',  function ($scope) {
+    $scope.problemCases = [
+      {
+        'href':'/problems/razbilos-steklo-iphone/',
+        'text': 'Разбилось стекло',
+        'title':'',
+        'iconName':'icon-hammer'
+      },
+      {
+        'href':'/problems/iphone-ne-vklyuchaetsya/',
+        'text': 'Не включается',
+        'title':'',
+        'iconName':'icon-no-mobile'
+      },
+      {
+        'href':'/problems/wifi-ne-rabotaet-ili-ploho-lovit-na-iphone/',
+        'text': 'Не работает Wi-Fi',
+        'title':'',
+        'iconName':'icon-wifi'
+      },
+      {
+        'href':'/problems/ne-rabotaet-zvuk-na-iphone/',
+        'text': 'Не работает звук',
+        'title':'',
+        'iconName':'icon-mute'
+      },
+      {
+        'href':'/problems/ne-rabotaet-displey-iphone/',
+        'text': 'Не работает дисплей',
+        'title':'',
+        'iconName':'icon-tv'
+      },
+      {
+        'href':'/problems/iphone-ne-zaryazhaetsya/',
+        'text': 'Не заряжается',
+        'title':'',
+        'iconName':'icon-charge'
+      },
+      {
+        'href':'/problems/voda/',
+        'text': 'Попала вода',
+        'title':'',
+        'iconName':'icon-water'
+      },
+      {
+        'href':'/problems/ne-rabotaet-vibrozvonok/',
+        'text': 'Не работает вибрация',
+        'title':'',
+        'iconName':'icon-bell'
+      },
+      {
+        'href':'icon-finger',
+        'text': 'Не работает тачскрин',
+        'title':'',
+        'iconName':'icon-finger'
+      },
+      {
+        'href':'/problems/iphone-byistro-razryazhaetsya/',
+        'text': 'Быстро разряжается',
+        'title':'',
+        'iconName':'icon-low-battery'
+      },
+      {
+        'href':'/problems/ne-nazhimayutsya-knopki-na-iphone/',
+        'text': 'Не работают кнопки',
+        'title':'',
+        'iconName':'icon-circle'
+      },
+      {
+        'href':'/problems/vas-ne-slyishit-sobesednik-ne-rabotaet-mikrofon-iphone/',
+        'text': 'Не работает микрофон',
+        'title':'',
+        'iconName':'icon-microphone'
+      }
+    ]
+  });
   

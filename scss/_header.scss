@@ -1,0 +1,50 @@
+.director-button {
+  margin-top:3px;
+}
+.header-section {
+	padding:10px 0;
+	background: #f2f2f2;
+}
+.header-section__schedule--description {
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 15px;
+	display: block;
+}
+.header-section__courier {
+	.btn-lg {
+		font-size: 16px;
+	}
+}
+.header-section__warranty {
+
+}
+.header-section__warranty__link {
+	text-decoration: none;
+	position: relative;
+	padding-left: 52px;
+	display: block;
+	line-height: 16px;
+	padding-top: 7px;
+	&:hover, &:focus {
+		.icon-warranty {
+			transform:rotate(360deg);
+		}
+	}
+	.icon-warranty {
+		color:rgb(218, 43, 43);
+		font-size: 40px;
+		position: absolute;
+		left:0;
+		top:1px;
+		@include transition(all, .3s);
+
+	}
+}
+.header-section__warranty--period {
+	display: block;
+}
+.header-section__warranty--all {
+	color:#999;
+	display: block;
+}

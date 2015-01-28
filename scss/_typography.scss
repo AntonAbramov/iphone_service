@@ -16,3 +16,47 @@
 @import "fonts/stacked";
 @import "fonts/icons";
 
+body, h1, h2, h3, h4, h5, h6 {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+body {
+	color:#333;
+  font:14px/20px Helvetica Neue, Arial;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+h2 {
+	font-size: 30px;
+	line-height: 30px;
+}
+h3 {
+	font-size: 22px;
+	line-height: 22px;
+}
+:focus {
+  outline: none;
+}
+a {
+  color:$link-color;
+  &:hover, &:focus {
+    color:$link-hover-color;
+  }
+}
+ul {
+	padding:0;
+	margin:0;
+}
+p {
+	margin:0 0 15px;
+}
+.heading-title {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size: 18px;
+	color:#333;
+	font-weight: 400;
+}

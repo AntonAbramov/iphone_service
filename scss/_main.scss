@@ -1,37 +1,4 @@
-body {
 
-}
-
-h1,h2,h3,h4,h5,h6 {
-	margin-top:0;
-	color:#555;
-	line-height: 1;
-}
-h1, h2 {
-	font-size: 24px;
-}
-h3 {
-}
-h3, h4, h5 {
-	font-size: 18px;
-}
-strong {
-}
-:focus {
-	outline: none;
-}
-a {
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
-	text-decoration: underline;
-	color:#0267b5;
-	&:hover, &:focus {
-		color:#0267b5;
-		text-decoration: none;
-	}
-}
 textarea {
 	resize: none;
 	border:2px solid #e3e4e8;
@@ -63,13 +30,22 @@ textarea {
 	padding:0 10px;
 	margin:0 auto;
 }
-.bg-gray {
-  background: $white--gray;
+.bg-lightgray {
+  background: $white--lightgray;
 }
 
 // devices styles
+.device-title {
+	margin:20px 0 0;
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 300;
+	text-align: center;
+	color:#333;
+}
 .devices {
 	text-align: center;
+	margin:0 0 30px;
 }
 .devices__item {
 	display: inline-block;
@@ -77,19 +53,83 @@ textarea {
 .devices__link {
 	display: block;
 	padding:10px 30px;
+	&:hover .devices__img,
+	&:focus .devices__img {
+		transform: scale(1.2);
+	}
 }
 .devices__img {
 	display: block;
 	padding:0 10px;
 	margin:0 0 15px;
+	@include transition(all, .3s);
 }
 .devices__img--preview {
 	display: block;
 	max-height: 100px;
-	max-width: 100;
 	margin:0 auto;
 }
 .devices__name {
 	text-align: center;
 
 }
+
+.problems-section {
+	margin:0 0 10px;
+	.aa {
+		font-size: 26px;
+		vertical-align: middle;
+	}
+}
+.problems {
+	margin:0 0 20px;
+}
+.problems__item {
+	list-style: none;
+}
+.problems__link {
+	text-decoration: none;
+	display: block;
+	padding:15px 10px;
+	color:#333;
+	&:hover, &:focus {
+		color:#08c;
+	}
+}
+.problems__text {
+	margin-left: 15px;
+	border-bottom:1px solid;
+}
+.information-section {
+	.aa {
+		margin:-2px 0 0 15px;
+	}
+}
+.content-row {
+	padding:15px 0;
+}
+.content-list {
+	margin-left: 30px;
+}
+.content-list--gray {
+	color:#999;
+}
+.content-img-left {
+	float:left;
+	margin-right: 15px;
+}
+.fa--gray {
+	color:#808080;
+}
+.adress-section {
+	border-top: 1px solid #eee;
+	background: #fafafa;
+	border-bottom: 1px solid #eee;
+	padding:10px 0;
+}
+
+
+
+
+
+
