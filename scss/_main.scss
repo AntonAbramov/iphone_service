@@ -8,23 +8,10 @@ textarea {
 	font-size: 13px;
 	line-height: 16px;
 }
-.cf {
-	&:after {
-		content:"";
-		display: table;
-		clear:both;
-	}
-}
-.mb10 {
-	margin-bottom:10px;
-}
-.mb20 {
-	margin-bottom:20px;
-}
-.right {
-	float:right;
-}
 
+hr {
+	border-top:1px solid #cccccc;
+}
 .container {
 	max-width:1170px;
 	padding:0 10px;
@@ -125,10 +112,15 @@ textarea {
 	border-top: 1px solid #eee;
 	background: #fafafa;
 	border-bottom: 1px solid #eee;
-	padding:10px 0;
+	padding:10px 0 0;
 }
-
-
+.adress-section__telephones {
+	margin:5px 0;
+}
+.adress-section__number {
+	font-weight: bold;
+	margin:0 10px;
+}
 
 
 
