@@ -121,7 +121,52 @@ hr {
 	font-weight: bold;
 	margin:0 10px;
 }
+.repear {
+	background: #fafafa;
+	padding:30px;
+	margin:30px auto;
+}
+.repear-heading {
+	margin:0 0 15px;
+}
+.repear-prices {
 
+}
+.pricelist__heading {
+	font-size: 20px;
+	color:#999;
+	margin:20px 0 10px;
+}
+.pricelist__table {
+	margin:0 15px;
+}
+.pricelist__row {
+	border:1px solid #ddd;
+	border-top:none;
+	padding:15px 0;
+	&:hover {
+		background: #fff;
+	}
+	&:first-child {
+		border-top:1px solid #ddd
+	}
+}
+.pricelist__item {
 
+}
+.pricelist__item__title {
 
+}
+.pricelist__item__time {
+	font-size: 12px;
+	color:#999;
+	line-height: 14px;
+}
+.pricelist__item__cost {
 
+}
+.pricelist__item__description {
+	color:#999;
+	font-size: 13px;
+	line-height: 14px;
+}

@@ -4077,7 +4077,7 @@ p {
 
 /* line 4, ../scss/_header.scss */
 .header-section {
-  padding: 10px 0;
+  padding: 15px 0;
   background: #f2f2f2;
 }
 
@@ -4129,6 +4129,21 @@ p {
 .header-section__warranty--all {
   color: #999;
   display: block;
+}
+
+/* line 51, ../scss/_header.scss */
+.sub-header {
+  margin: 30px 0;
+}
+
+/* line 54, ../scss/_header.scss */
+.sub-header__img {
+  max-height: 100px;
+}
+
+/* line 57, ../scss/_header.scss */
+.sub-header__description {
+  margin: 15px 0 0;
 }
 
 /* line 1, ../scss/_footer.scss */
@@ -5825,6 +5840,59 @@ hr {
 .adress-section__number {
   font-weight: bold;
   margin: 0 10px;
+}
+
+/* line 124, ../scss/_main.scss */
+.repear {
+  background: #fafafa;
+  padding: 30px;
+  margin: 30px auto;
+}
+
+/* line 129, ../scss/_main.scss */
+.repear-heading {
+  margin: 0 0 15px;
+}
+
+/* line 135, ../scss/_main.scss */
+.pricelist__heading {
+  font-size: 20px;
+  color: #999;
+  margin: 20px 0 10px;
+}
+
+/* line 140, ../scss/_main.scss */
+.pricelist__table {
+  margin: 0 15px;
+}
+
+/* line 143, ../scss/_main.scss */
+.pricelist__row {
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 15px 0;
+}
+/* line 147, ../scss/_main.scss */
+.pricelist__row:hover {
+  background: #fff;
+}
+/* line 150, ../scss/_main.scss */
+.pricelist__row:first-child {
+  border-top: 1px solid #ddd;
+}
+
+/* line 160, ../scss/_main.scss */
+.pricelist__item__time {
+  font-size: 12px;
+  color: #999;
+  line-height: 14px;
+}
+
+/* line 168, ../scss/_main.scss */
+.pricelist__item__description {
+  color: #999;
+  font-size: 13px;
+  line-height: 14px;
 }
 
 /* line 1, ../scss/_helpers.scss */
