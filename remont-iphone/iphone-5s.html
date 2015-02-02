@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html ng-app="iApp">
+<head>
+  <title>Профессиональный ремонт iPhone 5s в Киеве - Сервисный центр «Service Apple» - Service-iPhone.com.ua</title>
+  <meta charset="UTF-8"/>
+  <!--<meta name="viewport" content="width=device-width; initial-scale=1.0">-->
+  <meta name="author" content="Anton Abramov"/>
+  <meta name="keywords" content=""/>
+  <meta name="description"
+        content="Сервис &quot;Service Apple&quot; выполняет ремонт iPhone, iPad, iPod и MacBook в Киеве, дает гарантию на 2 года и использует оригинальные запчасти."/>
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="../css/style.css" type="text/css" media="all"/>
+  <link rel="stylesheet" media="only screen and (min-width: 480px)" href="../css/480.css">
+  <link rel="stylesheet" media="only screen and (min-width: 600px)" href="../css/600.css">
+  <link rel="stylesheet" media="only screen and (min-width: 768px)" href="../css/768.css">
+  <link rel="stylesheet" media="only screen and (min-width: 992px)" href="../css/992.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic-ext' rel='stylesheet'
+        type='text/css'>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+<site-header></site-header>
+<nav class="breadcrumbs"></nav>
+<div class="sub-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-2 text-center">
+        <img class="sub-header__img" src="../img/iphone/iphone5s.jpg" alt="iPhone 5S"/>
+      </div>
+      <div class="col-sm-4">
+        <h1>Ремонт iPhone 5s</h1>
+        <p>Услуги и цены</p>
+      </div>
+      <div class="col-sm-6"></div>
+    </div>
+    <div class="sub-header__description">
+      Мы ремонтируем только то, что нужно вам. Перед ремонтом iPhone 5S мы проводим диагностику. Она бесплатна. Диагностика даст понять, что требуется починить, чтобы аппарат пришел в рабочее состояние. Мы сообщаем вам результат и вы принимает решение, будете ли вы ремонтировать телефон и что именно вы будете ремонтировать. Например, если после попадания воды кроме прочего перестала работать вспышка, а вы ей не пользуетесь, то вы можете не платить за ее ремонт. Если после диагностики вы поняли, что вам ремонт не нужен, то мы вернем вам телефон не взяв ни копейки.  Если вы хотите узнать в чем проблема с телефоном, то позвоните в один из наших офисов. Мы постараемся подсказать, как вам лучше поступить в вашей ситуации. Вероятно, мы сможем сориентировать вас по стоимости ремонта. Быть может, вам вообще не нужно будет приезжать и мы решим проблему по телефону. Но угадать проблему мы не сможем. При многих симптомах источник проблемы может отличаться. Самые распространенные проблемы, когда без диагностики нельзя обозначить сумму ремонта:
+    </div>
+  </div>
+</div>
+<div class="container repear">
+  <h2 class="repear-heading">Цены на ремонт iPhone 5s</h2>
+  <p>Цены на услуги указаны с учетом запчастей. Запчасти оригинальные или снятые с новых аппаратов.</p>
+  <section class="repear-prices">
+    <prices-iphone5s></prices-iphone5s>
+  </section>
+</div>
+
+<!--<address-map></address-map>-->
+<section itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address" class="adress-section text-center">
+  <h2>Как нас найти:</h2>
+  <span itemprop="locality">г. Киев</span>
+  <span itemprop="streetAddress">м. Площа Льва Толстого <br/> ул. Богдана Хмельницкого 32, оф.5</span>
+  <div class="adress-section__telephones">
+    <a href="tel:0961253246" itemprop="telephone" class="adress-section__number">(096) 1253246</a>
+    <a href="tel:0937229156" itemprop="telephone" class="adress-section__number">(093) 7229156</a>
+    <a href="tel:0665669752" itemprop="telephone" class="adress-section__number">(066) 5669752</a>
+  </div>
+  <meta itemprop="openingHours" content="Пн-Пт 10:00-19:00">Пн-Пт <strong>10:00 - 19:00</strong>
+  <meta itemprop="openingHours" content="Сб 11:00-19:00">Сб <strong>9:00 - 20:00</strong><br/><br/>
+  <div id="googleMap" style="width:100%;height:500px;"></div>
+</section>
+<footer-site></footer-site>
+<script src="../js/vnd/angular.min.js"></script>
+<script src="../js/app.js"></script>
+
+<!-- Directives -->
+<script src="/js/directives/header.js"></script>
+<script src="/js/directives/address.js"></script>
+<script src="/js/directives/footer.js"></script>
+<script src="/js/directives/iphone5s.js"></script>
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="../js/init.js"></script>
+
+
+</body>
+</html>

@@ -1,27 +1,28 @@
 <header class="header">
+  <div style="position: absolute; top:10px;right:20px; font-weight: bold; z-index:1; font-size: 13px; text-align: right; line-height: 15px;">Сайт еще в разработке <br/> не все разделы работают</div>
   <div class="container pt10 pb10">
-    <h1 class="site-logo col-md-3 col-xs-12 col-sm-4 mb0">
-      <a href="/"><img src="" alt=""/></a>
+    <h1 class="site-logo col-md-2 col-xs-12 col-sm-4 mb0 mt0">
+      <a href="/"><img height="40" src="/img/logo.png" alt="service apple Kiev" /></a>
       <span class="site-logo__name"></span>
     </h1>
     <nav class="top-navigation col-lg-4 col-md-5 col-sm-8 col-xs-12">
-      <a ng-repeat="item in menuItems" class="top-navigation__link" href="{{item.href}}"><span
+      <a ng-repeat="item in menuItems" ng-class="{'is-active' : item.selected}" class="top-navigation__link" href="{{item.href}}"><span
               class="top-navigation--text" title="{{item.title}}}">{{item.text}}</span></a>
     </nav>
     <nav class="subnav cf col-lg-3 col-md-4 col-xs-12">
-      <a href="/category/news/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
+      <a href="#/category/news/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
         <i class="fa fa-fw fa-file-text"></i>
         <span class="subnav__link--text">Новости</span>
       </a>
-      <a href="/about/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
+      <a href="#/about/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
         <i class="fa fa-fw fa-building-o"></i>
         <span class="subnav__link--text">Компания</span>
       </a>
-      <a href="/responses/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
+      <a href="#/responses/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
         <i class="fa fa-fw fa-comments"></i>
         <span class="subnav__link--text">Отзывы</span>
       </a>
-      <a href="/contacts/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
+      <a href="#contacts" class="subnav__link col-md-6 col-xs-4 col-sm-3">
         <i class="fa fa-fw fa-map-marker"></i>
         <span class="subnav__link--text">Контакты</span>
       </a>
@@ -35,18 +36,19 @@
   <div class="container">
     <div class="header-section__contacts left mr20">
       <div class="header-section__contacts__title">
-        м. Площа Льва Толстого
+       <strong> м. Площа Льва Толстого</strong>
       </div>
       <div class="header-section__contacts__tel">
-        <a href="tel:380636404443">(063) 640 4444</a>
+        <a href="tel:0961253246" itemprop="telephone"><b>(096) 1253246</b></a>
+
       </div>
     </div>
     <div class="header-section__contacts left mr30">
       <div class="header-section__contacts__title">
-        м. Площа Льва Толстого
+       <a href="tel:0937229156" itemprop="telephone"><b>(093) 7229156</b></a>
       </div>
       <div class="header-section__contacts__tel">
-        <a href="tel:380636404443">(063) 640 4444</a>
+        <a href="tel:0665669752" itemprop="telephone"><b>(066) 5669752</b></a>
       </div>
     </div>
     <div class="header-section__schedule left mr30">
@@ -63,7 +65,7 @@
       </a>
     </div>
     <div class="header-section__warranty left">
-      <a class="header-section__warranty__link" href="/about/warranty">
+      <a class="header-section__warranty__link" href="#/about/warranty">
         <i class="icon-warranty aa"></i>
         <span class="header-section__warranty--period">Два года гарантии</span>
         <span class="header-section__warranty--all">на все ремонты</span>

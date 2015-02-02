@@ -3,56 +3,56 @@ var iApp = angular.module('iApp', []);
   iApp.controller('deviceController',  function ($scope) {
     $scope.menuIphone = [
       {
-        'href':'/remont-iphone/iphone-3g-3gs',
+        'href':'/remont-iphone/iphone-3g-3gs.html',
         'text': 'iPhone 3G и 3GS',
         'title':'',
         'imgSrc':'img/iphone/iphone3s.jpg',
         'imgAlt':''
       },
       {
-        'href':'/remont-iphone/iphone-4',
+        'href':'/remont-iphone/iphone-4.html',
         'text': 'iPhone 4',
         'title':'',
         'imgSrc':'img/iphone/iphone4.jpg',
         'imgAlt':''
       },
       {
-        'href':'/remont-iphone/iphone-4s',
+        'href':'/remont-iphone/iphone-4s.html',
         'text': 'iPhone 4s',
         'title':'',
         'imgSrc':'img/iphone/iphone4s.jpg',
         'imgAlt':''
       },
       {
-        'href':'/remont-iphone/iphone-5',
+        'href':'/remont-iphone/iphone-5.html',
         'text': 'iPhone 5',
         'title':'',
         'imgSrc':'img/iphone/iphone5.jpg',
         'imgAlt':''
       },
       {
-        'href':'/remont-iphone/iphone-5c',
+        'href':'/remont-iphone/iphone-5c.html',
         'text': 'iPhone 5c',
         'title':'',
         'imgSrc':'img/iphone/iphone5c.jpg',
         'imgAlt':''
       },
       {
-        'href':'/remont-iphone/iphone-5s',
+        'href':'/remont-iphone/iphone-5s.html',
         'text': 'iPhone 5s',
         'title':'',
         'imgSrc':'img/iphone/iphone5s.jpg',
         'imgAlt':''
       },
       {
-        'href':'/remont-iphone/iphone-6',
+        'href':'/remont-iphone/iphone-6.html',
         'text': 'iPhone 6',
         'title':'',
         'imgSrc':'img/iphone/iphone6.jpg',
         'imgAlt':''
       },
       {
-        'href':'/remont-iphone/iphone-6-plus',
+        'href':'/remont-iphone/iphone-6plus.html',
         'text': 'iPhone 6 Plus',
         'title':'',
         'imgSrc':'img/iphone/iphone6plus.jpg',

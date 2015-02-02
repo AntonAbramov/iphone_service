@@ -1,56 +1,68 @@
 .top-navigation {
-  text-align:center;
-  a:first-child {
-    margin-left: 0;
-  }
+	a:first-child {
+		margin-left: 0;
+	}
 }
+
 .top-navigation__link {
-  color:$black;
-  display: inline-block;
-  padding:9px 14px;
-  margin-left: 5px;
-  font-size: 16px;
-  border-radius: 100px;
-  border:1px solid transparent;
-  text-decoration: none;
-  &.is-active {
-    // needs latest Compass, add '@import "compass"' to your scss
-    background-color: #1e5799; // Old browsers
-    @include filter-gradient(#1e5799, #7db9e8, vertical); // IE6-8
-    // IE9 SVG, needs conditional override of 'filter' to 'none'
-    $experimental-support-for-svg: true;
-    @include background-image(linear-gradient(top,  #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%));
-    color:#fff;
-    cursor: default;
-    text-decoration: none;
-  }
-  &:hover, &:focus {
-    border:1px solid #ddd;
-    color:#000;
-    .top-navigation--text {
-      border:none;
-    }
-  }
+	color: $black;
+	display: inline-block;
+	padding: 9px 14px;
+	margin-left: 5px;
+	font-size: 16px;
+	border-radius: 100px;
+	border: 1px solid transparent;
+	text-decoration: none;
+	&.is-active {
+		// needs latest Compass, add '@import "compass"' to your scss
+		background-color: #0483d9; // Old browsers
+		@include filter-gradient(#0483d9, #05aad9, vertical); // IE6-8
+		// IE9 SVG, needs conditional override of 'filter' to 'none'
+		$experimental-support-for-svg: true;
+		@include background-image(linear-gradient(top, #0483d9 0%, #05aad9 100%));
+		color: #fff;
+		cursor: default;
+		text-decoration: none;
+		border:none;
+		.top-navigation--text {
+			border: none;
+			color:#fff;
+		}
+		&:hover, &:focus {
+			border:none;
+		}
+	}
+	&:hover, &:focus {
+		border: 1px solid #ddd;
+		color: #000;
+		.top-navigation--text {
+			border: none;
+		}
+	}
 }
+
 .top-navigation--text {
-  border-bottom:1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 }
+
 .subnav {
 
 }
+
 .subnav__link {
-  position: relative;
-  font-size: 13px;
-  .fa {
-    font-size: 15px;
-    color:#ddd;
-    position: absolute;
-    z-index: 1;
-    left:3px;
-    top:2px;
-  }
+	position: relative;
+	font-size: 14px;
+	.fa {
+		font-size: 15px;
+		color: #ddd;
+		position: absolute;
+		z-index: 1;
+		left: 3px;
+		top: 3px;
+	}
 }
+
 .subnav__link--text {
-  padding-left: 10px;
-  text-shadow: 0 1px 0px #fff;
+	padding-left: 10px;
+	text-shadow: 0 1px 0px #fff;
 }
