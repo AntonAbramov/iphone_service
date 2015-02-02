@@ -5908,6 +5908,18 @@ hr {
   line-height: 14px;
 }
 
+/* line 173, ../scss/_main.scss */
+.warranty__heading2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+/* line 177, ../scss/_main.scss */
+.warranty__agreement {
+  color: #999;
+  margin: 0 0 40px 20px;
+}
+
 /* line 1, ../scss/_helpers.scss */
 .mt0 {
   margin-top: 0;

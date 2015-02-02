@@ -7,7 +7,7 @@
     </h1>
     <nav class="top-navigation col-lg-4 col-md-5 col-sm-8 col-xs-12">
       <a ng-repeat="item in menuItems" ng-class="{'is-active' : item.selected}" class="top-navigation__link" href="{{item.href}}"><span
-              class="top-navigation--text" title="{{item.title}}}">{{item.text}}</span></a>
+              class="top-navigation--text" title="{{item.title}}">{{item.text}}</span></a>
     </nav>
     <nav class="subnav cf col-lg-3 col-md-4 col-xs-12">
       <a href="#/category/news/" class="subnav__link col-md-6 col-xs-4 col-sm-3">
@@ -36,7 +36,7 @@
   <div class="container">
     <div class="header-section__contacts left mr20">
       <div class="header-section__contacts__title">
-       <strong> м. Площа Льва Толстого</strong>
+        <a href="#contacts"><strong> м. Площа Льва Толстого</strong></a>
       </div>
       <div class="header-section__contacts__tel">
         <a href="tel:0961253246" itemprop="telephone"><b>(096) 1253246</b></a>
@@ -65,7 +65,7 @@
       </a>
     </div>
     <div class="header-section__warranty left">
-      <a class="header-section__warranty__link" href="#/about/warranty">
+      <a class="header-section__warranty__link" href="/about/warranty.html">
         <i class="icon-warranty aa"></i>
         <span class="header-section__warranty--period">Два года гарантии</span>
         <span class="header-section__warranty--all">на все ремонты</span>
