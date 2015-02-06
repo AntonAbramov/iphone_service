@@ -137,4 +137,13 @@ iApp.controller('problemsController',  function ($scope) {
       }
     ]
   });
-  
+
+
+iApp.directive('cantFind', function () {
+  return {
+    restrict: 'E',
+    templateUrl: '/js/views/cant-find.html',
+    controller: function ($scope) {
+    }
+  }
+});

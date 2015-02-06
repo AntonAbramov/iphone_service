@@ -9,6 +9,7 @@
 .mb10 {margin-bottom:10px;}
 .mb15 {margin-bottom:15px;}
 .mb20 {margin-bottom:20px;}
+.mb30 {margin-bottom:30px;}
 
 .mr5  {margin-right:5px;}
 .mr10 {margin-right:10px;}
@@ -56,4 +57,7 @@
 		display: table;
 		clear:both;
 	}
+}
+.content-text p{
+  line-height: 22px;
 }

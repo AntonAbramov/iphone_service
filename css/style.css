@@ -5920,6 +5920,35 @@ hr {
   margin: 0 0 40px 20px;
 }
 
+/* line 181, ../scss/_main.scss */
+.didnt-find {
+  line-height: 2em;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background: #f5f5f5;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  margin: 0 0 30px;
+}
+
+/* line 190, ../scss/_main.scss */
+.didnt-find__text {
+  font-size: 22px;
+}
+
+/* line 193, ../scss/_main.scss */
+.didnt-find__telephone {
+  color: #333;
+  margin: 0 5px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 15px;
+}
+/* line 199, ../scss/_main.scss */
+.didnt-find__telephone:hover, .didnt-find__telephone:focus {
+  color: #2a6496;
+}
+
 /* line 1, ../scss/_helpers.scss */
 .mt0 {
   margin-top: 0;
@@ -5970,149 +5999,159 @@ hr {
   margin-bottom: 20px;
 }
 
-/* line 13, ../scss/_helpers.scss */
+/* line 12, ../scss/_helpers.scss */
+.mb30 {
+  margin-bottom: 30px;
+}
+
+/* line 14, ../scss/_helpers.scss */
 .mr5 {
   margin-right: 5px;
 }
 
-/* line 14, ../scss/_helpers.scss */
+/* line 15, ../scss/_helpers.scss */
 .mr10 {
   margin-right: 10px;
 }
 
-/* line 15, ../scss/_helpers.scss */
+/* line 16, ../scss/_helpers.scss */
 .mr15 {
   margin-right: 15px;
 }
 
-/* line 16, ../scss/_helpers.scss */
+/* line 17, ../scss/_helpers.scss */
 .mr20 {
   margin-right: 20px;
 }
 
-/* line 17, ../scss/_helpers.scss */
+/* line 18, ../scss/_helpers.scss */
 .mr30 {
   margin-right: 30px;
 }
 
-/* line 19, ../scss/_helpers.scss */
+/* line 20, ../scss/_helpers.scss */
 .ml5 {
   margin-left: 5px;
 }
 
-/* line 20, ../scss/_helpers.scss */
+/* line 21, ../scss/_helpers.scss */
 .ml10 {
   margin-left: 10px;
 }
 
-/* line 21, ../scss/_helpers.scss */
+/* line 22, ../scss/_helpers.scss */
 .ml15 {
   margin-left: 15px;
 }
 
-/* line 22, ../scss/_helpers.scss */
+/* line 23, ../scss/_helpers.scss */
 .ml20 {
   margin-left: 20px;
 }
 
-/* line 24, ../scss/_helpers.scss */
+/* line 25, ../scss/_helpers.scss */
 .pt5 {
   padding-top: 5px;
 }
 
-/* line 25, ../scss/_helpers.scss */
+/* line 26, ../scss/_helpers.scss */
 .pt10 {
   padding-top: 10px;
 }
 
-/* line 26, ../scss/_helpers.scss */
+/* line 27, ../scss/_helpers.scss */
 .pt15 {
   padding-top: 15px;
 }
 
-/* line 27, ../scss/_helpers.scss */
+/* line 28, ../scss/_helpers.scss */
 .pt20 {
   padding-top: 20px;
 }
 
-/* line 29, ../scss/_helpers.scss */
+/* line 30, ../scss/_helpers.scss */
 .pb5 {
   padding-bottom: 5px;
 }
 
-/* line 30, ../scss/_helpers.scss */
+/* line 31, ../scss/_helpers.scss */
 .pb10 {
   padding-bottom: 10px;
 }
 
-/* line 31, ../scss/_helpers.scss */
+/* line 32, ../scss/_helpers.scss */
 .pb15 {
   padding-bottom: 15px;
 }
 
-/* line 32, ../scss/_helpers.scss */
+/* line 33, ../scss/_helpers.scss */
 .pb20 {
   padding-bottom: 20px;
 }
 
-/* line 34, ../scss/_helpers.scss */
+/* line 35, ../scss/_helpers.scss */
 .pr5 {
   padding-right: 5px;
 }
 
-/* line 35, ../scss/_helpers.scss */
+/* line 36, ../scss/_helpers.scss */
 .pr10 {
   padding-right: 10px;
 }
 
-/* line 36, ../scss/_helpers.scss */
+/* line 37, ../scss/_helpers.scss */
 .pr15 {
   padding-right: 15px;
 }
 
-/* line 37, ../scss/_helpers.scss */
+/* line 38, ../scss/_helpers.scss */
 .pr20 {
   padding-right: 20px;
 }
 
-/* line 39, ../scss/_helpers.scss */
+/* line 40, ../scss/_helpers.scss */
 .pl5 {
   padding-left: 5px;
 }
 
-/* line 40, ../scss/_helpers.scss */
+/* line 41, ../scss/_helpers.scss */
 .pl10 {
   padding-left: 10px;
 }
 
-/* line 41, ../scss/_helpers.scss */
+/* line 42, ../scss/_helpers.scss */
 .pl15 {
   padding-left: 15px;
 }
 
-/* line 42, ../scss/_helpers.scss */
+/* line 43, ../scss/_helpers.scss */
 .pl20 {
   padding-left: 20px;
 }
 
-/* line 44, ../scss/_helpers.scss */
+/* line 45, ../scss/_helpers.scss */
 .left {
   float: left;
 }
 
-/* line 47, ../scss/_helpers.scss */
+/* line 48, ../scss/_helpers.scss */
 .right {
   float: right;
 }
 
-/* line 50, ../scss/_helpers.scss */
+/* line 51, ../scss/_helpers.scss */
 .text-center {
   text-align: center;
 }
 
-/* line 54, ../scss/_helpers.scss */
+/* line 55, ../scss/_helpers.scss */
 .cf:after {
   content: "";
   display: table;
   clear: both;
+}
+
+/* line 61, ../scss/_helpers.scss */
+.content-text p {
+  line-height: 22px;
 }
