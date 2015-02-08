@@ -14,20 +14,13 @@ module.exports = function (grunt) {
       options: {
         livereload: true
       },
-      css: {
+      scss: {
         files: ['scss/**/*.scss'],
         tasks: ['compass']
-      }
-    },
-    cssmin: {
-      target: {
-        files: [{
-          expand: true,
-          cwd: 'css',
-          src: ['*.css', '!*.min.css'],
-          dest: 'css',
-          ext: '.min.css'
-        }]
+      },
+      css: {
+        files: ['css/style.css'],
+        tasks: ['asset_cachebuster']
       }
     },
     csslint: {
@@ -46,15 +39,27 @@ module.exports = function (grunt) {
         },
         src: ['css/**/*.css']
       }
+    },
+    asset_cachebuster: {
+      options: {
+        buster: Date.now(),
+        ignore: [],
+        htmlExtension: 'html'
+      },
+      build: {
+        files: {
+          'css/style.css': ['css/style.css']
+        }
+      }
     }
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-csslint');
+  grunt.loadNpmTasks('grunt-asset-cachebuster');
 
-  //grunt.registerTask('default', ['compass', 'csslint', 'watch']);
-  grunt.registerTask('default', ['compass', 'watch']);
+//  grunt.registerTask('default', ['compass', 'csslint', 'asset_cachebuster', 'watch']);
+  grunt.registerTask('default', ['compass', 'asset_cachebuster', 'watch']);
 }
