@@ -443,9 +443,9 @@ th {
   box-sizing: border-box;
 }
 
-/* line 56, icons/*.png */
-.icons-sprite, .icons-favicon, .icons-favicon2, .test, #aaa {
-  background-image: url(../img/icons.png?v=1423424564824);
+/* line 48, icons/*.png */
+.icons-sprite, .icons-favicon, .test, #aaa {
+  background-image: url(../img/icons.png?v=1423924952761);
   background-repeat: no-repeat;
 }
 
@@ -456,27 +456,20 @@ th {
   width: 16px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
-.icons-favicon2 {
-  background-position: 0 -16px;
-  height: 16px;
-  width: 16px;
-}
-
-/* line 13, ../scss/_sprite.scss */
+/* line 12, ../scss/_sprite.scss */
 .test {
   background-position: 0 0;
   height: 16px;
   width: 16px;
 }
 
-/* line 16, ../scss/_sprite.scss */
+/* line 15, ../scss/_sprite.scss */
 .icon {
   text-indent: -9999em;
   display: inline-block;
 }
 
-/* line 21, ../scss/_sprite.scss */
+/* line 20, ../scss/_sprite.scss */
 #aaa {
   background-position: 0 0;
   height: 16px;
@@ -498,8 +491,8 @@ th {
 }
 @font-face {
   font-family: "appleIcons";
-  src: url(../fonts/apple-icons.eot?v=1423424564824);
-  src: url("../fonts/apple-icons.eot?#iefix") format("embedded-opentype"), url(../fonts/apple-icons.woff?v=1423424564824) format("woff"), url(../fonts/apple-icons.ttf?v=1423424564824) format("truetype"), url(../fonts/apple-icons.svg#apple-icons?v=1423424564824) format("svg");
+  src: url(../fonts/apple-icons.eot?v=1423924952761);
+  src: url("../fonts/apple-icons.eot?#iefix") format("embedded-opentype"), url(../fonts/apple-icons.woff?v=1423924952761) format("woff"), url(../fonts/apple-icons.ttf?v=1423924952761) format("truetype"), url(../fonts/apple-icons.svg#apple-icons?v=1423924952761) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -4171,16 +4164,6 @@ p {
 .footer-link {
   display: inline-block;
   margin: 0 10px 10px;
-}
-
-/* line 9, ../scss/_footer.scss */
-body {
-  background: url(../img/iphone/iphone4.jpg?v=1423424564824);
-}
-
-/* line 12, ../scss/_footer.scss */
-a {
-  color: red;
 }
 
 /* line 2, ../scss/_navigation.scss */
