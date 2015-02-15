@@ -445,7 +445,7 @@ th {
 
 /* line 48, icons/*.png */
 .icons-sprite, .icons-favicon, .test, #aaa {
-  background-image: url(../img/icons.png?v=1423958141615);
+  background-image: url(../img/icons.png?v=1423995147071);
   background-repeat: no-repeat;
 }
 
@@ -491,8 +491,8 @@ th {
 }
 @font-face {
   font-family: "appleIcons";
-  src: url(../fonts/apple-icons.eot?v=1423958141615);
-  src: url("../fonts/apple-icons.eot?#iefix") format("embedded-opentype"), url(../fonts/apple-icons.woff?v=1423958141615) format("woff"), url(../fonts/apple-icons.ttf?v=1423958141615) format("truetype"), url(../fonts/apple-icons.svg#apple-icons?v=1423958141615) format("svg");
+  src: url(../fonts/apple-icons.eot?v=1423995147071);
+  src: url("../fonts/apple-icons.eot?#iefix") format("embedded-opentype"), url(../fonts/apple-icons.woff?v=1423995147071) format("woff"), url(../fonts/apple-icons.ttf?v=1423995147071) format("truetype"), url(../fonts/apple-icons.svg#apple-icons?v=1423995147071) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -5980,6 +5980,12 @@ hr {
 .prices-table__th {
   vertical-align: bottom;
   text-align: left;
+}
+
+/* line 263, ../scss/_main.scss */
+.img-container img {
+  max-width: 100%;
+  display: block;
 }
 
 /* line 1, ../scss/_helpers.scss */

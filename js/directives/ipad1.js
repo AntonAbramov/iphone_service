@@ -1,7 +1,7 @@
-angular.module('iApp').directive('pricesIphone5', function () {
+angular.module('iApp').directive('pricesIpad1', function () {
   return {
     restrict: 'E',
-    templateUrl: '/js/views/prices-iphone.html',
+    templateUrl: '/js/views/prices-ipad.html',
     controller: function ($scope) {
       $scope.pricesTable = [
         {

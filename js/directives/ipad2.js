@@ -1,12 +1,12 @@
-angular.module('iApp').directive('pricesIphone5c', function () {
+angular.module('iApp').directive('pricesIpad2', function () {
   return {
     restrict: 'E',
-    templateUrl: '/js/views/prices-iphone.html',
-    controller: function ($scope){
+    templateUrl: '/js/views/prices-ipad.html',
+    controller: function ($scope) {
       $scope.pricesTable = [
         {
           'tableTitle': 'Основное',
-          'rows' : [
+          'rows': [
             {
               'title': 'Диагностика',
               'repear_time': '20 мин.',
@@ -29,7 +29,7 @@ angular.module('iApp').directive('pricesIphone5c', function () {
         },
         {
           'tableTitle': 'Корпус',
-          'rows' : [
+          'rows': [
             {
               'title': 'Замена стекла (тачскрина)',
               'repear_time': '60 мин.',
@@ -46,7 +46,7 @@ angular.module('iApp').directive('pricesIphone5c', function () {
         },
         {
           'tableTitle': 'Кнопки',
-          'rows' : [
+          'rows': [
             {
               'title': 'Замена кнопки Home',
               'repear_time': '60 мин.',
@@ -72,12 +72,12 @@ angular.module('iApp').directive('pricesIphone5c', function () {
               'description': 'От загрязнений или неправильного использования кнопка включения может перестать работать.'
             }
 
-            
+
           ]
         },
         {
           'tableTitle': 'Комплектующие',
-          'rows' : [
+          'rows': [
             {
               'title': 'Замена антенны Wi-Fi',
               'repear_time': '60 мин.',
@@ -126,7 +126,7 @@ angular.module('iApp').directive('pricesIphone5c', function () {
               'cost': '1200 грн.',
               'description': 'Дисплей на iPad 2 не работает? Замена дисплея производится профессиональными мастерами в нашем сервис-центре.'
             },
-			{
+            {
               'title': 'Ремонт разъема наушников',
               'repear_time': '60 мин.',
               'cost': '650 грн.',
@@ -142,7 +142,7 @@ angular.module('iApp').directive('pricesIphone5c', function () {
         },
         {
           'tableTitle': 'Другое',
-          'rows' : [
+          'rows': [
             {
               'title': 'Наклейка пленки',
               'repear_time': '5 мин.',

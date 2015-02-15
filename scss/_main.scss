@@ -257,9 +257,14 @@ hr {
 .prices-table__th {
   vertical-align: bottom;
   text-align: left;
-
 }
 
+.img-container {
+  img {
+    max-width: 100%;
+    display: block;
+  }
+}
 
 
 
