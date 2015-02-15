@@ -27,14 +27,14 @@
 <div class="sub-header">
   <div class="container">
     <div class="row">
-      <h1>Разбилось стекло iPhone</h1>
-      <div class="row">
-        <div class="col-sm-3">
-          <i class="icon-hammer aa"></i>
-        </div>
-        <div class="col-sm-9">
-          <p>Трещины на стеклах — самое частое явление на iPhone. Так как Apple стремится делать аппараты красивыми, а экраны нецарапающимися, то падения на твердую поверхность стало врагом всех iPhone. Это, пожалуй, самая популярная услуга в <a href="">ремонте iPhone</a>.</p>
-        </div>
+      <div class="col-sm-12">
+        <h1>Разбилось стекло iPhone</h1>
+      </div>
+      <div class="col-sm-3 text-center f40">
+        <i class="icon-hammer aa"></i>
+      </div>
+      <div class="col-sm-9">
+        <p>Трещины на стеклах — самое частое явление на iPhone. Так как Apple стремится делать аппараты красивыми, а экраны нецарапающимися, то падения на твердую поверхность стало врагом всех iPhone. Это, пожалуй, самая популярная услуга в <a href="">ремонте iPhone</a>.</p>
       </div>
     </div>
     <div class="row">
@@ -54,13 +54,13 @@
   <table ng-controller="priceTables" class="prices-table">
     <thead>
       <tr>
-        <th ng-repeat="title in columns">{{title}}</th>
+        <th class="prices-table__th" ng-repeat="title in columns">{{title}}</th>
       </tr>
 
     </thead>
     <tbody>
-      <tr ng-repeat="row in rows">
-        <td ng-repeat="item in row">{{item}}</td>
+      <tr ng-repeat="item in rows">
+        <td ng-repeat="title in columns">{{item[title]}}</td>
       </tr>
     </tbody>
   </table>
