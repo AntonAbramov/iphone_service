@@ -75,35 +75,35 @@ iApp.controller('deviceController', function ($scope) {
       'imgAlt': ''
     },
     {
-      'href': '#/ipad-remont/ipad-3.html',
+      'href': '/ipad-remont/ipad-3.html',
       'text': 'iPad 3',
       'title': '',
       'imgSrc': 'img/ipad/ipad3.jpg',
       'imgAlt': ''
     },
     {
-      'href': '#/ipad-remont/ipad-4.html',
+      'href': '/ipad-remont/ipad-4.html',
       'text': 'iPad 4',
       'title': '',
       'imgSrc': 'img/ipad/ipad4.jpg',
       'imgAlt': ''
     },
     {
-      'href': '#/ipad-remont/ipad-mini.html',
+      'href': '/ipad-remont/ipad-mini.html',
       'text': 'iPad Mini',
       'title': '',
       'imgSrc': 'img/ipad/ipad_mini.jpg',
       'imgAlt': ''
     },
     {
-      'href': '#/ipad-remont/ipad-mini2.html',
+      'href': '/ipad-remont/ipad-mini2.html',
       'text': 'iPad Mini2',
       'title': '',
       'imgSrc': 'img/ipad/ipad_mini2.jpg',
       'imgAlt': ''
     },
     {
-      'href': '#/ipad-remont/ipad-air.html',
+      'href': '/ipad-remont/ipad-air.html',
       'text': 'iPad Air',
       'title': '',
       'imgSrc': 'img/ipad/ipad_air.jpg',

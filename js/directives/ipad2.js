@@ -6,7 +6,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
       $scope.pricesTable = [
         {
           'tableTitle': 'Основное',
-          'rows': [
+          'rows' : [
             {
               'title': 'Диагностика',
               'repear_time': '20 мин.',
@@ -29,7 +29,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
         },
         {
           'tableTitle': 'Корпус',
-          'rows': [
+          'rows' : [
             {
               'title': 'Замена стекла (тачскрина)',
               'repear_time': '60 мин.',
@@ -46,7 +46,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
         },
         {
           'tableTitle': 'Кнопки',
-          'rows': [
+          'rows' : [
             {
               'title': 'Замена кнопки Home',
               'repear_time': '60 мин.',
@@ -77,7 +77,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
         },
         {
           'tableTitle': 'Комплектующие',
-          'rows': [
+          'rows' : [
             {
               'title': 'Замена антенны Wi-Fi',
               'repear_time': '60 мин.',
@@ -126,7 +126,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
               'cost': '1200 грн.',
               'description': 'Дисплей на iPad 2 не работает? Замена дисплея производится профессиональными мастерами в нашем сервис-центре.'
             },
-            {
+			{
               'title': 'Ремонт разъема наушников',
               'repear_time': '60 мин.',
               'cost': '650 грн.',
@@ -142,7 +142,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
         },
         {
           'tableTitle': 'Другое',
-          'rows': [
+          'rows' : [
             {
               'title': 'Наклейка пленки',
               'repear_time': '5 мин.',

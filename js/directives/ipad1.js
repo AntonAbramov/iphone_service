@@ -6,7 +6,7 @@ angular.module('iApp').directive('pricesIpad1', function () {
       $scope.pricesTable = [
         {
           'tableTitle': 'Основное',
-          'rows': [
+          'rows' : [
             {
               'title': 'Диагностика',
               'repear_time': 'от 15 мин.',
@@ -29,7 +29,7 @@ angular.module('iApp').directive('pricesIpad1', function () {
         },
         {
           'tableTitle': 'Корпус',
-          'rows': [
+          'rows' : [
             {
               'title': 'Замена стекла (тачскрина)',
               'repear_time': '60 мин.',
@@ -46,7 +46,7 @@ angular.module('iApp').directive('pricesIpad1', function () {
         },
         {
           'tableTitle': 'Комплектующие',
-          'rows': [
+          'rows' : [
             {
               'title': 'Замена аккумулятора',
               'repear_time': '60 мин.',
@@ -71,7 +71,7 @@ angular.module('iApp').directive('pricesIpad1', function () {
               'cost': '600 грн.',
               'description': 'Ваш iPad не видит зарядку? Мы производим ремонт разъема зарядки iPad в кратчайшие сроки.'
             },
-            {
+			{
               'title': 'Замена разъема наушников',
               'repear_time': '60 мин.',
               'cost': '600 грн.',
@@ -81,7 +81,7 @@ angular.module('iApp').directive('pricesIpad1', function () {
         },
         {
           'tableTitle': 'Кнопки',
-          'rows': [
+          'rows' : [
             {
               'title': 'Замена кнопки Home',
               'repear_time': '60 мин.',
@@ -98,7 +98,7 @@ angular.module('iApp').directive('pricesIpad1', function () {
         },
         {
           'tableTitle': 'Другое',
-          'rows': [
+          'rows' : [
             {
               'title': 'Наклейка пленки',
               'repear_time': '5 мин.',
