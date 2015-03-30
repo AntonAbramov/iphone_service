@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html ng-app="iApp">
+<head>
+  <title>Ремонт MacBook в Киеве. Сервисный центр «Service iPhone» - Service-iPhone.com.ua</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <meta name="author" content="Anton Abramov"/>
+  <meta name="keywords" content="Ремонт iphone, ремонт айфона, ремонт iphone5, ремонт iphone 4, ремонт iphone6, ремонт ipad, ремонт ipad2" />
+  <meta name="description"
+        content="Сервис &quot;Service iPhone&quot; делает ремонт MacBook, iPad, iPod и MacBook в Киеве, дает гарантию на 2 года и использует только оригинальные запчасти."/>
+  <link type="image/x-icon" rel="shortcut icon" href="favicon.ico"/>
+  <link rel="stylesheet" href="css/style.css?v=1423413609176" type="text/css" media="all"/>
+  <link rel="stylesheet" media="only screen and (min-width: 480px)" href="css/480.css?v=1423413609176">
+  <link rel="stylesheet" media="only screen and (min-width: 600px)" href="css/600.css?v=1423413609176">
+  <link rel="stylesheet" media="only screen and (min-width: 768px)" href="css/768.css?v=1423413609176">
+  <link rel="stylesheet" media="only screen and (min-width: 992px)" href="css/992.css?v=1423413609176">
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300&subset=latin,cyrillic-ext' rel='stylesheet'
+        type='text/css'>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js?v=1423413609176"></script>
+  <![endif]-->
+
+</head>
+<body>
+<site-header></site-header>
+<section ng-controller="deviceController" class="device-section">
+  <h1 class="device-title">
+    Ремонт MacBook
+  </h1>
+
+  <p class="heading-title">Выберите модель:</p>
+
+  <div class="devices">
+    <div ng-repeat="item in menuMacbook" class="devices__item">
+      <a href="{{item.href}}" title="{{item.title}}" class="devices__link">
+        <span class="devices__img"><img class="devices__img--preview" src="{{item.imgSrc}}" alt="{{item.imgAlt}}"/></span>
+        <span class="devices__name">{{item.text}}</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="information-section">
+  <div class="container">
+    <p class="text-center" style="font-size: 16px;">Наши мастера могут произвести ремонт <strong>MacBook</strong> всех поколений, выпущенных за последние несколько лет. Помимо обычного <strong>MacBook</strong>, мы также ремонтируем <strong>MacBook Pro</strong> и <strong>MacBook Air</strong>.</p>
+
+    <div class="row content-row">
+      <div class="col-sm-12 text-center">
+        <img src="img/macbook/laptops.jpg" alt=""/>
+      </div>
+      <div class="col-sm-6">
+        <h3>Чистка MacBook от пыли</h3>
+        <p>Больше всего на состояние влияет пыль. Она попадает внутрь через систему охлаждения, забивает вентилятор, оседает на материнской плате. Наши мастера могут произвести чистку, как в профилактических целях, так и при острой необходимости. Сильные загрязнения пылью довольно сильно влияют на работу MacBook. Он из-за пыли начинает тормозить, греться или перезагружаться. Чистка MacBook от пыли очень рекомендуется и в профилактических целях, с целью увеличить срок службы ноутбука.</p>
+      </div>
+      <div class="col-sm-6">
+        <h3>Чистка MacBook от грязи</h3>
+        <p>Еще одна проблема, это попадание в ноутбук грязи, воды или пролитых напитков. Мы, конечно, будем говорить о небольших количествах воды, ведь если залить MacBook водой, то чисткой все не обойдется.</p>
+        <p>Чаще всего от воды, грязи и жира повреждается клавиатура и Touchpad. В этом случае может помочь чистка, но при более-менее значительных загрязнениях может потребоваться и замена.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--<address-map></address-map>-->
+<section id="contacts" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address" class="adress-section text-center">
+  <h2>Как нас найти:</h2>
+  <span itemprop="locality">г. Киев</span>
+  <span itemprop="streetAddress">м. Золотые Ворота <br/> ул. Богдана Хмельницкого 32, оф.5</span>
+  <div class="adress-section__telephones">
+    <a href="tel:0961253246" itemprop="telephone" class="adress-section__number">(096) 1253246</a>
+    <a href="tel:0937229156" itemprop="telephone" class="adress-section__number">(093) 7229156</a>
+    <a href="tel:0665669752" itemprop="telephone" class="adress-section__number">(066) 5669752</a>
+  </div>
+  <meta itemprop="openingHours" content="Пн-Пт 10:00-19:00">Пн-Пт <strong class="mr10">10:00 - 19:00</strong>
+  <meta itemprop="openingHours" content="Сб 11:00-17:00">Сб <strong class="mr10">11:00 - 17:00</strong>
+  <meta itemprop="openingHours" content="Вс выходной">Вс <strong>выходной</strong><br/><br/>
+  <div id="googleMap" style="width:100%;height:500px;"></div>
+</section>
+<footer-site></footer-site>
+<script src="js/vnd/angular.min.js?v=1423413609176"></script>
+<script src="js/app.js?v=1423413609176"></script>
+
+<!-- Directives -->
+<script src="/js/directives/header.js?v=1423413609176"></script>
+<script src="/js/directives/address.js?v=1423413609176"></script>
+<script src="/js/directives/footer.js?v=1423413609176"></script>
+
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script src="js/init.js?v=1423413609176"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55262919-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

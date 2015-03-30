@@ -6,7 +6,7 @@ angular.module('iApp').directive('siteHeader', function () {
       $scope.menuItems = [
         {'href':'/', 'title':'iPhone', 'text':'iPhone', selected: ''},
         {'href':'/ipad-remont.html', 'title':'iPad', 'text':'iPad'},
-        {'href':'#/remont-macbook/', 'title':'MacBook', 'text':'MacBook'},
+        {'href':'/remont-macbook.html', 'title':'MacBook', 'text':'MacBook'},
         {'href':'#/remont-ipod/', 'title':'iPod', 'text':'iPod'}
       ];
     }

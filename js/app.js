@@ -109,7 +109,31 @@ iApp.controller('deviceController', function ($scope) {
       'imgSrc': 'img/ipad/ipad_air.jpg',
       'imgAlt': ''
     }
+  ];
+  $scope.menuMacbook = [
+    {
+      'href': '/remont-macbook/pro.html',
+      'text': 'MacBook Pro',
+      'title': '',
+      'imgSrc': 'img/macbook/pro.jpg',
+      'imgAlt': ''
+    },
+    {
+      'href': '/remont-macbook/air.html',
+      'text': 'MacBook Air',
+      'title': '',
+      'imgSrc': 'img/macbook/air.jpg',
+      'imgAlt': ''
+    },
+    {
+      'href': '/remont-macbook/macbook.html',
+      'text': 'MacBook',
+      'title': '',
+      'imgSrc': 'img/macbook/mac.jpg',
+      'imgAlt': ''
+    }
   ]
+
 });
 
 iApp.controller('problemsController', function ($scope) {
