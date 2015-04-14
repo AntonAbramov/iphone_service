@@ -22,7 +22,7 @@ angular.module('iApp').directive('pricesIpadMini', function () {
             {
               'title': 'Перепрошивка, программный ремонт',
               'repear_time': '30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Прошивка может потребоваться, если iPad зависает, глючит или если вы неудачно обновились.'
             }
           ]
@@ -33,7 +33,7 @@ angular.module('iApp').directive('pricesIpadMini', function () {
             {
               'title': 'Замена сенсорного стекла',
               'repear_time': '60 мин.',
-              'cost': '1400 грн.',
+              'cost': '1000/1200 грн.',
               'description': 'На вашем iPad mini разбилось стекло? Замена стекла на iPad mini в нашем сервисе занимает около часа и ваш планшет опять будет как новый.'
             },
             {
@@ -50,25 +50,25 @@ angular.module('iApp').directive('pricesIpadMini', function () {
             {
               'title': 'Замена дисплея (отдельно)',
               'repear_time': '60 мин.',
-              'cost': '1500 грн.',
+              'cost': '2000/2400 грн.',
               'description': 'Замена дисплея на iPad чаще всего необходима, если экран вдруг перестал показывать или была повреждена матрица.'
             },
             {
               'title': 'Замена полифонического динамика',
               'repear_time': '60 мин.',
-              'cost': '600 грн.',
+              'cost': '550 грн.',
               'description': ' '
             },
             {
               'title': 'Замена микрофона',
               'repear_time': '60 мин.',
-              'cost': '600 грн.',
+              'cost': '550 грн.',
               'description': ''
             },
             {
               'title': 'Замена аккумулятора',
               'repear_time': '60 мин.',
-              'cost': '1000 грн.',
+              'cost': '700/1200 грн.',
               'description': 'Ваш аккумулятор все чаще приходится заряжать и он быстрее садится? Новый аккумулятор решит все проблемы!'
             },
             {
@@ -86,7 +86,7 @@ angular.module('iApp').directive('pricesIpadMini', function () {
             {
               'title': 'Замена антенны Wi-Fi',
               'repear_time': '60 мин.',
-              'cost': '850 грн.',
+              'cost': '650 грн.',
               'description': 'Если у вас сильно снизился уровень приема WiFi, то проблема скорее всего в антенне и потребуется её заменить.'
             },
             {
@@ -144,7 +144,7 @@ angular.module('iApp').directive('pricesIpadMini', function () {
 			{
               'title': 'Доставка из сервиса',
               'repear_time': 'от 30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас нет времени забрать Ваш iPad mini, наш курьер всегда с радостью Вам его доставит.'
             },
             {

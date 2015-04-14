@@ -22,7 +22,7 @@ angular.module('iApp').directive('pricesIphone5', function () {
             {
               'title': 'Перепрошивка, программный ремонт',
               'repear_time': '30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас зависает iPhone 5 или вы забыли пароль блокировки, нужно будет прошить устройство.'
             }
           ]
@@ -33,13 +33,13 @@ angular.module('iApp').directive('pricesIphone5', function () {
             {
               'title': 'Замена стекла дисплея (модуль)',
               'repear_time': '30 мин.',
-              'cost': '1100/1300 грн.',
+              'cost': '1200/1400 грн.',
               'description': 'Установка оригинального дисплейного модуля с олеофобным покрытием.'
             },
             {
               'title': 'Замена корпуса',
               'repear_time': '2 часа.',
-              'cost': '1200 грн.',
+              'cost': '1400 грн.',
               'description': 'Замена корпуса iPhone 5 выполняется при сильных повреждениях,трещинах.'
             }
           ]
@@ -109,7 +109,7 @@ angular.module('iApp').directive('pricesIphone5', function () {
             {
               'title': 'Замена вибро-мотора',
               'repear_time': '30 мин.',
-              'cost': '250 грн.',
+              'cost': '240 грн.',
               'description': 'Во время входящего звонка Вы не ощущаете Ваш iPhone 5, значит Вам нужно заменить вибро-мотор.'
             },
             {
@@ -121,13 +121,13 @@ angular.module('iApp').directive('pricesIphone5', function () {
             {
               'title': 'Замена задней камеры',
               'repear_time': '25 мин.',
-              'cost': '350 грн.',
+              'cost': '400 грн.',
               'description': 'При проблемах с задней камерой iPhone 5, таких как низкое качество изображение или его отсутствие следует заменить камеру.'
             },
             {
               'title': 'Замена передней камеры',
               'repear_time': '25 мин.',
-              'cost': '350 грн.',
+              'cost': '400 грн.',
               'description': 'Если Вы не можете настроить фокус или у Вас низкое качество изображения, Вам нужно заменить камеру.'
             },
             {
@@ -197,19 +197,19 @@ angular.module('iApp').directive('pricesIphone5', function () {
             {
               'title': 'Замена микросхемы Wi-Fi',
               'repear_time': '2-3 часа.',
-              'cost': '1150 грн.',
+              'cost': '1000 грн.',
               'description': ''
             },
             {
               'title': 'Замена микросхемы контролер питания',
               'repear_time': '3-5 часов.',
-              'cost': '1100 грн.',
+              'cost': '1050 грн.',
               'description': ''
             },
             {
               'title': 'Замена микросхемы аудио-кодека',
               'repear_time': '3-5 часов.',
-              'cost': '1200 грн.',
+              'cost': '1100 грн.',
               'description': ''
             },
             {
@@ -221,7 +221,7 @@ angular.module('iApp').directive('pricesIphone5', function () {
             {
               'title': 'Замена USB контролера',
               'repear_time': '3-5 часов.',
-              'cost': '900 грн.',
+              'cost': '800 грн.',
               'description': ''
             },
             {
@@ -239,7 +239,7 @@ angular.module('iApp').directive('pricesIphone5', function () {
             {
               'title': 'Доставка из сервиса',
               'repear_time': 'от 30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас нет времени забрать Ваш iPhone 5, наш курьер всегда с радостью Вам его доставит.'
             },
             {

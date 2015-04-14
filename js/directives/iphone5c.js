@@ -22,7 +22,7 @@ angular.module('iApp').directive('pricesIphone5c', function () {
             {
               'title': 'Перепрошивка, программный ремонт',
               'repear_time': '30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если Вы забыли пароль блокировки iPhone 5C Вам потребуется прошивка с потерей информации.'
             }
           ]
@@ -33,13 +33,13 @@ angular.module('iApp').directive('pricesIphone5c', function () {
             {
               'title': 'Замена стекла и дисплея (модулем)',
               'repear_time': '30 мин.',
-              'cost': '1300 грн.',
+              'cost': '1200/1400 грн.',
               'description': 'Дисплейный модуль меняется, если не работает дисплей или разбито стекло.'
             },
             {
               'title': 'Замена корпуса',
               'repear_time': '60 мин.',
-              'cost': '1100 грн.',
+              'cost': '1200 грн.',
               'description': 'Пластиковый корпус iPhone 5С может сломаться от падения или очень сильно поцарапаться.'
             }
           ]
@@ -99,7 +99,7 @@ angular.module('iApp').directive('pricesIphone5c', function () {
             {
               'title': 'Замена аккумулятора',
               'repear_time': '5 мин.',
-              'cost': '350 грн.',
+              'cost': '400 грн.',
               'description': 'Если у Вас iPhone 5C быстро разряжается, вероятно проблема в аккумуляторе.'
             },
             {
@@ -146,13 +146,13 @@ angular.module('iApp').directive('pricesIphone5c', function () {
             {
               'title': 'Замена шлейфа кнопки Home',
               'repear_time': '60 мин.',
-              'cost': '300 грн.',
+              'cost': '250 грн.',
               'description': 'За работу кнопки Home отвечает шлейф кнопки Home'
             },
             {
               'title': 'Замена верхнего шлейфа',
               'repear_time': '60 мин.',
-              'cost': '400 грн.',
+              'cost': '350 грн.',
               'description': 'Верхний шлейф iPhone 5С отвечает за работу кнопок громкости, включения, вибро и за запись звука при съемке видео'
             },
             {
@@ -164,7 +164,7 @@ angular.module('iApp').directive('pricesIphone5c', function () {
             {
               'title': 'Замена разъёма для наушников (аудиоджека)',
               'repear_time': '30 мин.',
-              'cost': '350 грн.',
+              'cost': '400 грн.',
               'description': ''
             }
           ]
@@ -193,7 +193,7 @@ angular.module('iApp').directive('pricesIphone5c', function () {
             {
               'title': 'Доставка из сервиса',
               'repear_time': 'от 30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас нет времени забрать Ваш iPhone 5, наш курьер всегда с радостью Вам его доставит.'
             },
             {

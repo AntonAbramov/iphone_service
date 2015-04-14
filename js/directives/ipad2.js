@@ -22,7 +22,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
             {
               'title': 'Перепрошивка, программный ремонт',
               'repear_time': '30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если Вы забыли пароль блокировки iPhone 5C Вам потребуется прошивка с потерей информации.'
             }
           ]
@@ -33,13 +33,13 @@ angular.module('iApp').directive('pricesIpad2', function () {
             {
               'title': 'Замена стекла (тачскрина)',
               'repear_time': '60 мин.',
-              'cost': '1100 грн.',
+              'cost': '800/1000 грн.',
               'description': 'На вашем iPad 2 разбилось стекло? Замена стекла на iPad 2 в нашем сервисе занимает около часа и ваш планшет опять будет как новый.'
             },
             {
               'title': 'Замена корпуса',
               'repear_time': '60 мин.',
-              'cost': '1100/1400 грн.',
+              'cost': '1400/1600 грн.',
               'description': 'При очень сильном ударе корпус iPad 2 может повредиться. В этому случае потребуется его замена.'
             }
           ]
@@ -81,7 +81,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
             {
               'title': 'Замена антенны Wi-Fi',
               'repear_time': '60 мин.',
-              'cost': '750 грн.',
+              'cost': '600 грн.',
               'description': 'Если плохо ловит WiFi, возможно потребуется заменить антенну.'
             },
             {
@@ -99,7 +99,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
             {
               'title': 'Замена аккумулятора',
               'repear_time': '5 мин.',
-              'cost': '1000/1200 грн.',
+              'cost': '800/1000 грн.',
               'description': 'Аккумулятор iPad 2 не заряжается или не держит заряд? Замена аккумулятора решит эту проблему.'
             },
             {
@@ -123,7 +123,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
             {
               'title': 'Замена дисплея',
               'repear_time': '60 мин.',
-              'cost': '1200 грн.',
+              'cost': '2000/2400 грн.',
               'description': 'Дисплей на iPad 2 не работает? Замена дисплея производится профессиональными мастерами в нашем сервис-центре.'
             },
 			{
@@ -135,7 +135,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
             {
               'title': 'Ремонт разъема зарядки',
               'repear_time': '60 мин.',
-              'cost': '500 грн.',
+              'cost': '550 грн.',
               'description': 'Если iPad 2 не заряжается или его не видит компьютер, то проблема, скорее всего, в разъеме.'
             }
           ]
@@ -152,7 +152,7 @@ angular.module('iApp').directive('pricesIpad2', function () {
             {
               'title': 'Доставка из сервиса',
               'repear_time': 'от 30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас нет времени забрать Ваш iPhone 5, наш курьер всегда с радостью Вам его доставит.'
             },
             {

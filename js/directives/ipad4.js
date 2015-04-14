@@ -22,7 +22,7 @@ angular.module('iApp').directive('pricesIpad4', function () {
             {
               'title': 'Перепрошивка, программный ремонт',
               'repear_time': '30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас зависает iPad 4 или вы забыли пароль блокировки, нужно будет прошить устройство.'
             }
           ]
@@ -33,19 +33,19 @@ angular.module('iApp').directive('pricesIpad4', function () {
             {
               'title': 'Замена стекла (тачскрина)',
               'repear_time': '60 мин.',
-              'cost': '1100 грн.',
+              'cost': '800/1000 грн.',
               'description': 'На вашем iPad 4 разбилось стекло? Замена стекла на iPad 4 в нашем сервисе занимает около часа и ваш планшет опять будет как новый.'
             },
 			{
               'title': 'Замена дисплея',
               'repear_time': '60 мин.',
-              'cost': '2400 грн.',
+              'cost': '2200/2400 грн.',
               'description': 'Дисплей на iPad 4 не работает? Замена дисплея производится профессиональными мастерами в нашем сервис-центре.'
             },
             {
               'title': 'Замена корпуса',
               'repear_time': '60 мин.',
-              'cost': '1500 грн.',
+              'cost': '1400/1600 грн.',
               'description': 'При очень сильном ударе корпус iPad 4 может повредиться. В этому случае потребуется его замена.'
             },
           ]
@@ -56,7 +56,7 @@ angular.module('iApp').directive('pricesIpad4', function () {
             {
               'title': 'Замена кнопки Home',
               'repear_time': '60 мин.',
-              'cost': '600 грн.',
+              'cost': '550 грн.',
               'description': 'Время от времени кнопка Home начинает залипать или полностью выходит из строя.'
             },
             {
@@ -87,7 +87,7 @@ angular.module('iApp').directive('pricesIpad4', function () {
             {
               'title': 'Замена аккумулятора',
               'repear_time': '60 мин.',
-              'cost': '1300 грн.',
+              'cost': '700/1000 грн.',
               'description': 'Аккумулятор iPad 4 не заряжается или не держит заряд? Замена аккумулятора решит эту проблему.'
             },
             {
@@ -105,13 +105,13 @@ angular.module('iApp').directive('pricesIpad4', function () {
 			{
               'title': 'Замена микрофона',
               'repear_time': '60 мин.',
-              'cost': '650 грн.',
+              'cost': '550 грн.',
               'description': ''
             },
 			{
               'title': 'Замена полифонического динамика',
               'repear_time': '60 мин.',
-              'cost': '600 грн.',
+              'cost': '550 грн.',
               'description': ''
             },
 			{
@@ -123,7 +123,7 @@ angular.module('iApp').directive('pricesIpad4', function () {
             {
               'title': 'Замена антенны Wi-Fi',
               'repear_time': '60 мин.',
-              'cost': '800 грн.',
+              'cost': '650 грн.',
               'description': 'Если у Вас плохо ловит wi-fi, Вам нужно заменить антенну.'
             }
           ]
@@ -134,7 +134,7 @@ angular.module('iApp').directive('pricesIpad4', function () {
             {
               'title': 'Замена шлейфа кнопки Home',
               'repear_time': '60 мин.',
-              'cost': '600 грн.',
+              'cost': '500 грн.',
               'description': 'За работу кнопки Home отвечает шлейф кнопки Home.'
             },
             {
@@ -157,7 +157,7 @@ angular.module('iApp').directive('pricesIpad4', function () {
             {
               'title': 'Доставка из сервиса',
               'repear_time': 'от 30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас нет времени забрать Ваш iPhone 5, наш курьер всегда с радостью Вам его доставит.'
             },
             {

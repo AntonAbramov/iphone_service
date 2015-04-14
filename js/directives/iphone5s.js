@@ -22,7 +22,7 @@ angular.module('iApp').directive('pricesIphone5s', function () {
             {
               'title': 'Перепрошивка, программный ремонт',
               'repear_time': '30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас зависает iPhone 5S или вы забыли пароль блокировки, нужно будет прошить устройство.'
             }
           ]
@@ -33,7 +33,7 @@ angular.module('iApp').directive('pricesIphone5s', function () {
             {
               'title': 'Замена стекла и дисплея(модуль)',
               'repear_time': 'от 25 мин.',
-              'cost': '1100/1300 грн.',
+              'cost': '1200/1400 грн.',
               'description': 'Дисплейный модуль меняется, если не работает дисплей или разбито стекло.'
             },
             {
@@ -50,7 +50,7 @@ angular.module('iApp').directive('pricesIphone5s', function () {
             {
               'title': 'Замена кнопки Home',
               'repear_time': '25 мин.',
-              'cost': '350 грн.',
+              'cost': '300 грн.',
               'description': 'Время от времени кнопка Home начинает залипать или полностью выходит из строя.'
             },
             {
@@ -117,13 +117,13 @@ angular.module('iApp').directive('pricesIphone5s', function () {
             {
               'title': 'Замена передней камеры',
               'repear_time': '20 мин.',
-              'cost': '400 грн.',
+              'cost': '350 грн.',
               'description': 'Если Вы не можете настроить фокус или у Вас низкое качество изображения, Вам нужно заменить камеру.'
             },
             {
               'title': 'Замена датчиков света/затемнения',
               'repear_time': '60 мин.',
-              'cost': '450 грн.',
+              'cost': '350 грн.',
               'description': 'Если во время звонка Ваше ухо произвольно нажимает на кнопки и iPhone 5S не блокируется, значит проблема в датчике.'
             },
             {
@@ -146,13 +146,13 @@ angular.module('iApp').directive('pricesIphone5s', function () {
             {
               'title': 'Замена шлейфа кнопки Home',
               'repear_time': '25 мин.',
-              'cost': '350 грн.',
+              'cost': '450 грн.',
               'description': 'За работу кнопки Home отвечает шлейф кнопки Home.'
             },
             {
               'title': 'Замена верхнего шлейфа',
               'repear_time': '60 мин.',
-              'cost': '450 грн.',
+              'cost': '400 грн.',
               'description': 'Верхний шлейф iPhone 5S отвечает за работу кнопок громкости, включения, вибро и за запись звука при съемке видео.'
             },
             {
@@ -193,7 +193,7 @@ angular.module('iApp').directive('pricesIphone5s', function () {
             {
               'title': 'Доставка из сервиса',
               'repear_time': 'от 30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если у Вас нет времени забрать Ваш iPhone 5, наш курьер всегда с радостью Вам его доставит.'
             },
             {

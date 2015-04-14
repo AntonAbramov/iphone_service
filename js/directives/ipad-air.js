@@ -16,7 +16,7 @@ angular.module('iApp').directive('pricesIpadAir', function () {
             {
               'title': 'Перепрошивка, программный ремонт',
               'repear_time': '30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Прошивка может потребоваться, если iPhone зависает, глючит или если вы неудачно обновились.'
             },
             {
@@ -33,13 +33,13 @@ angular.module('iApp').directive('pricesIpadAir', function () {
             {
               'title': 'Замена стекла (тачскрина) ',
               'repear_time': '60 мин.',
-              'cost': '1600 грн.',
+              'cost': '1400 грн.',
               'description': 'На вашем iPad Air разбилось стекло? Замена стекла на iPad Air в нашем сервисе занимает около часа и ваш планшет опять будет как новый.'
             },
 			{
               'title': 'Замена дисплея',
               'repear_time': '1 час.',
-              'cost': '3300 грн.',
+              'cost': '3400 грн.',
               'description': 'Замена дисплея на iPad чаще всего необходима, если экран вдруг перестал показывать или была повреждена матрица.'
             },
             {
@@ -68,7 +68,7 @@ angular.module('iApp').directive('pricesIpadAir', function () {
             {
               'title': 'Ремонт кнопок громкости',
               'repear_time': '60 мин.',
-              'cost': '700 грн.',
+              'cost': '750 грн.',
               'description': 'Если у вас не работают кнопки громкости на iPad Air, то наши мастера без проблема проведут ремонт.'
             }
 
@@ -92,7 +92,7 @@ angular.module('iApp').directive('pricesIpadAir', function () {
             {
               'title': 'Замена аккумулятора',
               'repear_time': '60 мин.',
-              'cost': '1200 грн.',
+              'cost': '900/1200 грн.',
               'description': 'Со временем, аккумулятор в iPad все меньше держит заряд, но его без проблем можно заменить и он будет работать как новый.'
             },
             {
@@ -145,7 +145,7 @@ angular.module('iApp').directive('pricesIpadAir', function () {
             {
               'title': 'Доставка из сервиса',
               'repear_time': 'от 30 мин.',
-              'cost': '150 грн.',
+              'cost': '100 грн.',
               'description': 'Если Вы заняти, нет времени забрать Ваш iPad, курьер с радостью доставит Вам его по адресу.'
             }
           ]
