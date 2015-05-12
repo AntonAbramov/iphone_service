@@ -22,19 +22,19 @@ angular.module('iApp').directive('pricesMacbook', function () {
 			{
               'title': 'Чистка от пыли',
               'repear_time': 'от 60 мин.',
-              'cost': ' 350 грн.',
+              'cost': ' 210 грн.',
               'description': ''
             },
 			{
               'title': 'Замена жесткого диска',
               'repear_time': 'от 3 часов.',
-              'cost': ' 300 грн.',
+              'cost': ' 180 грн.',
               'description': ''
             },
 			{
               'title': 'Замена клавиатуры',
               'repear_time': 'от 3 часов.',
-              'cost': ' 640 грн.',
+              'cost': ' 500 грн.',
               'description': ''
             },
 			{
@@ -46,79 +46,67 @@ angular.module('iApp').directive('pricesMacbook', function () {
 			{
               'title': 'Замена wi-fi модуля',
               'repear_time': 'от 60 мин.',
-              'cost': ' 320 грн.',
+              'cost': ' 280 грн.',
               'description': ''
             },
 			{
               'title': 'Замена провода на зарядке',
               'repear_time': 'от 60 мин.',
-              'cost': ' 320 грн.',
+              'cost': ' 260 грн.',
               'description': ''
             },
 			{
               'title': 'Ремонт USB',
               'repear_time': 'от 60 мин.',
-              'cost': ' 400 грн.',
+              'cost': ' 320 грн.',
               'description': ''
             },
 			{
               'title': 'Замена батареи',
               'repear_time': '60 мин.',
-              'cost': ' 160 грн.',
+              'cost': ' 110 грн.',
               'description': ''
             },
 			{
               'title': 'Замена жк матрицы',
               'repear_time': 'от 2 часов.',
-              'cost': ' 1400 грн.',
+              'cost': ' 800 грн.',
               'description': ''
             },
 			{
               'title': 'Замена петли',
               'repear_time': 'от 2 часов.',
-              'cost': '1400 грн.',
+              'cost': '500 грн.',
               'description': ''
             },
 			{
               'title': 'Замена тачпада',
               'repear_time': 'от 60 мин.',
-              'cost': '500 грн.',
+              'cost': '210 грн.',
               'description': ''
             },
 			{
               'title': 'Ремонт разъема зарядки ',
               'repear_time': 'от 60 мин.',
-              'cost': '700 грн.',
+              'cost': '260 грн.',
               'description': ''
             },
 			{
               'title': 'Восстановление видеокарты',
               'repear_time': 'от 2 часов.',
-              'cost': '2500 грн.',
-              'description': ''
-            },
-			{
-              'title': 'Восстановление данных с HDD',
-              'repear_time': 'от 2 часов.',
-              'cost': '2500 грн.',
-              'description': ''
-            },
-			{
-              'title': 'Восстановление данных с SSD',
-              'repear_time': 'от 2 часов.',
-              'cost': ' 3100 грн.',
+              'cost': '900 грн.',
               'description': ''
             },
 			{
               'title': 'Гравировка клавиатуры ',
               'repear_time': '24 часа.',
-              'cost': ' 500 грн.',
+              'cost': ' 400 грн.',
               'description': ''
             },
 			{
               'title': 'Замена экрана в сборе',
               'repear_time': 'от 60 мин.',
-              'cost': '850 грн.',
+              'cost': '350 грн.',
               'description': ''
             },
             {
