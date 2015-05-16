@@ -230,23 +230,23 @@ iApp.controller('priceTables', function ($scope) {
       'Услуга': 'Замена стекла и дисплея (модулем)',
       'iPhone 3G/3GS': '400 грн',
       'iPhone 4': '850 грн',
-      'iPhone 5': '1400 грн',
-      'iPhone 5C': '1400 грн',
+      'iPhone 5': '1200 грн',
+      'iPhone 5C': '1200 грн',
       'iPhone 4S': '850 грн',
-      'iPhone 5S': '1400 грн',
-	  'iPhone 6': '5500 грн',
-	  'iPhone 6+': '13000 грн'
+      'iPhone 5S': '1200 грн',
+	  'iPhone 6': '4500 грн',
+	  'iPhone 6+': '10500 грн'
     },
     {
       'Услуга': 'Замена дисплея (отдельно)',
       'iPhone 3G/3GS': '350 грн',
-      'iPhone 4': '750 грн',
+      'iPhone 4': '850 грн',
       'iPhone 5': '1200 грн',
       'iPhone 5C': '1200 грн',
-      'iPhone 4S': '750 грн',
+      'iPhone 4S': '850 грн',
       'iPhone 5S': '1200 грн',
 	  'iPhone 6': '4500 грн',
-	  'iPhone 6+': '12000 грн'
+	  'iPhone 6+': '105000 грн'
     },
     {
       'Услуга': 'Замена переднего стекла (отдельно)',
@@ -256,7 +256,7 @@ iApp.controller('priceTables', function ($scope) {
       'iPhone 5C': '800 грн',
       'iPhone 4S': '600 грн',
       'iPhone 5S': '800 грн',
-	  'iPhone 6': '2500 грн',
+	  'iPhone 6': '2400 грн',
 	  'iPhone 6+': '3000 грн'
     }
   ]
